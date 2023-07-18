@@ -1,0 +1,17 @@
+{
+    "id": 1111,
+    "name": "Mr. Melvin Abshire",
+    "age": 16,
+    "city": "North Marielaborough",
+    "email": "jay.harris@hotmail.com",
+    "phone": 10381845,
+    "subjectID": 64,
+    "subject_marks": {
+        "Total_marks":329,
+        "hindi_marks" : 85,
+        "Science_marks": 75,
+        "Math_marks": 35,
+        "other_marks": [35,50,50]
+    },
+    "Names" : ["Mitalee","Ruby"]
+}

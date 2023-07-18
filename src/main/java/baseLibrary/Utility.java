@@ -79,6 +79,12 @@ public class Utility
 			System.out.println();
 		}
 	}
+	public static void PrintText(String text)
+	{
+		System.out.println("**************************************************************************");
+		System.out.println("**********"+text+"***********************");
+		System.out.println("**************************************************************************");
+	}
 	public static void main(String[] args) throws IOException 
 	{
 		Utility.readExcel();

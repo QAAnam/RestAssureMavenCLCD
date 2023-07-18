@@ -1,5 +1,6 @@
 package baseLibrary;
 
-public class BaseLibrary {
+public class BaseLibrary 
+{
 
 }

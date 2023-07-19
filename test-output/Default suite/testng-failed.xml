@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="practice.Practice">
+      <class name="testRest.PostUsingLomBok">
         <methods>
-          <include name="postBodyAsMapHashMapOnLittleMoreComplexUsingJsonLibrarayFromOrgdotJson"/>
+          <include name="postUsingLombokAsBodyUsingPojo"/>
         </methods>
-      </class> <!-- practice.Practice -->
+      </class> <!-- testRest.PostUsingLomBok -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

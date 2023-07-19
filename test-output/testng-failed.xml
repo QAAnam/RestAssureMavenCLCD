@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testRest.PostUsingLomBok">
+      <class name="testRest.ValidationOverJson">
         <methods>
-          <include name="postUsingLombokAsBodyUsingPojo"/>
+          <include name="validateJsonSchema"/>
         </methods>
-      </class> <!-- testRest.PostUsingLomBok -->
+      </class> <!-- testRest.ValidationOverJson -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

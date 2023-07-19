@@ -1,0 +1,969 @@
+[
+  {
+    "id": 637,
+    "name": "Mr. Melvin Abshire",
+    "age": 16,
+    "city": "North Marielaborough",
+    "email": "jay.harris@hotmail.com",
+    "phone": 10381845,
+    "subjectID": 64
+  },
+  {
+    "id": 110,
+    "name": "Mr. Melvin Abshire",
+    "age": "16",
+    "city": "North Marielaborough",
+    "email": "jay.harris@hotmail.com",
+    "phone": 10381845,
+    "subjectID": 77
+  },
+  {
+    "id": 239,
+    "name": "Marylee Yost III",
+    "age": "22",
+    "city": "Lake Miguel",
+    "email": "gilma.leuschke@gmail.com",
+    "phone": 3699364221,
+    "subjectID": 38
+  },
+  {
+    "id": 253,
+    "name": "Britany Leuschke",
+    "age": "34",
+    "city": "South Eliseo",
+    "email": "kourtney.skiles@hotmail.com",
+    "phone": 233593614,
+    "subjectID": 10
+  },
+  {
+    "id": 61,
+    "name": "Josef Cole",
+    "age": "29",
+    "city": "Ceceliamouth",
+    "email": "lanell.farrell@hotmail.com",
+    "phone": 6349621202,
+    "subjectID": 64
+  },
+  {
+    "id": 627,
+    "name": "Dr. Jessie Dickinson",
+    "age": "39",
+    "city": "Turcotteton",
+    "email": "reid.armstrong@gmail.com",
+    "phone": 4276214641,
+    "subjectID": 60
+  },
+  {
+    "id": 472,
+    "name": "Huong Price",
+    "age": "45",
+    "city": "North Galeland",
+    "email": "doug.nader@gmail.com",
+    "phone": 6813055070,
+    "subjectID": 91
+  },
+  {
+    "id": 392,
+    "name": "Renee Labadie",
+    "age": "26",
+    "city": "South Sung",
+    "email": "desmond.gottlieb@hotmail.com",
+    "phone": 3004718541,
+    "subjectID": 88
+  },
+  {
+    "id": 452,
+    "name": "Cecil Moen",
+    "age": "34",
+    "city": "Brekkeview",
+    "email": "tiera.olson@yahoo.com",
+    "phone": 2621012850,
+    "subjectID": 19
+  },
+  {
+    "id": 415,
+    "name": "Herb Abshire II",
+    "age": "22",
+    "city": "West Carman",
+    "email": "jazmine.klocko@hotmail.com",
+    "phone": 826872274,
+    "subjectID": 52
+  },
+  {
+    "id": 793,
+    "name": "Craig Hessel",
+    "age": "20",
+    "city": "Lake Perry",
+    "email": "regena.damore@hotmail.com",
+    "phone": 7825425756,
+    "subjectID": 36
+  },
+  {
+    "id": 287,
+    "name": "Adrianne Klocko",
+    "age": "38",
+    "city": "Baileyville",
+    "email": "karey.hackett@hotmail.com",
+    "phone": 420994451,
+    "subjectID": 80
+  },
+  {
+    "id": 848,
+    "name": "Buster Watsica Jr.",
+    "age": "43",
+    "city": "Cruickshankmouth",
+    "email": "will.sanford@hotmail.com",
+    "phone": 6505015818,
+    "subjectID": 80
+  },
+  {
+    "id": 670,
+    "name": "Osvaldo Moore Sr.",
+    "age": "21",
+    "city": "Tracymouth",
+    "email": "my.gerhold@hotmail.com",
+    "phone": 7875176074,
+    "subjectID": 41
+  },
+  {
+    "id": 567,
+    "name": "Leonardo Langworth",
+    "age": "40",
+    "city": "South Erniechester",
+    "email": "booker.nader@yahoo.com",
+    "phone": 8522847018,
+    "subjectID": 84
+  },
+  {
+    "id": 485,
+    "name": "Mrs. Donte Stokes",
+    "age": "22",
+    "city": "Leighannland",
+    "email": "sterling.kemmer@yahoo.com",
+    "phone": 5864615105,
+    "subjectID": 76
+  },
+  {
+    "id": 826,
+    "name": "Dwain Turcotte I",
+    "age": "37",
+    "city": "VonRuedenmouth",
+    "email": "vicente.bosco@gmail.com",
+    "phone": 4821323592,
+    "subjectID": 13
+  },
+  {
+    "id": 173,
+    "name": "Denny Price",
+    "age": "24",
+    "city": "New Allaberg",
+    "email": "heike.murphy@hotmail.com",
+    "phone": 5749060279,
+    "subjectID": 92
+  },
+  {
+    "id": 999,
+    "name": "Mr. Melvin Abshire",
+    "age": 16,
+    "city": "North Marielaborough",
+    "email": "jay.harris@hotmail.com",
+    "phone": 10381845,
+    "subjectID": 64,
+    "subject_marks": {
+      "Total_marks": 329,
+      "hindi_marks": 85,
+      "Science_marks": 75,
+      "Math_marks": 35,
+      "other_marks": [
+        35,
+        50,
+        50
+      ]
+    },
+    "Names": [
+      "Mitalee",
+      "Ruby"
+    ]
+  },
+  {
+    "id": 1000,
+    "name": "Mr. Melvin Abshire",
+    "age": 16,
+    "city": "North Marielaborough",
+    "email": "jay.harris@hotmail.com",
+    "phone": 10381845,
+    "subjectID": 64,
+    "subject_marks": {
+      "Total_marks": 329,
+      "hindi_marks": 85,
+      "Science_marks": 75,
+      "Math_marks": 35,
+      "other_marks": [
+        35,
+        50,
+        50
+      ]
+    },
+    "Names": [
+      "Mitalee",
+      "Ruby"
+    ]
+  },
+  {
+    "id": 1111,
+    "name": "Mr. Melvin Abshire",
+    "age": 16,
+    "city": "North Marielaborough",
+    "email": "jay.harris@hotmail.com",
+    "phone": 10381845,
+    "subjectID": 64,
+    "subject_marks": {
+      "Total_marks": 329,
+      "hindi_marks": 85,
+      "Science_marks": 75,
+      "Math_marks": 35,
+      "other_marks": [
+        35,
+        50,
+        50
+      ]
+    },
+    "Names": [
+      "Mitalee",
+      "Ruby"
+    ]
+  },
+  {
+    "id": 35,
+    "name": "Mr. Melvin Abshire",
+    "age": 16,
+    "city": "North Marielaborough",
+    "email": "jay.harris@hotmail.com",
+    "phone": 10381845,
+    "subjectID": 64,
+    "subject_marks": {
+      "Total_marks": 329,
+      "hindi_marks": 85,
+      "Science_marks": 75,
+      "Math_marks": 35,
+      "other_marks": [
+        35,
+        50,
+        50
+      ]
+    },
+    "Names": [
+      "Mitalee",
+      "Ruby"
+    ]
+  },
+  {
+    "id": 593,
+    "name": "Mr. Melvin Abshire",
+    "age": 16,
+    "city": "North Marielaborough",
+    "email": "jay.harris@hotmail.com",
+    "phone": 10381845,
+    "subjectID": 64,
+    "subject_marks": {
+      "Total_marks": 329,
+      "hindi_marks": 85,
+      "Science_marks": 75,
+      "Math_marks": 35,
+      "other_marks": [
+        35,
+        50,
+        50
+      ]
+    },
+    "Names": [
+      "Mitalee",
+      "Ruby"
+    ]
+  },
+  {
+    "city": "Suite 849",
+    "name": "Latoria Boyer",
+    "id": 446,
+    "age": 754,
+    "email": "roosevelt.jenkins@gmail.com"
+  },
+  {
+    "id": 179,
+    "name": "Mr. Melvin Abshire",
+    "age": 16,
+    "city": "North Marielaborough",
+    "email": "jay.harris@hotmail.com",
+    "phone": 10381845,
+    "subjectID": 64,
+    "subject_marks": {
+      "Total_marks": 329,
+      "hindi_marks": 85,
+      "Science_marks": 75,
+      "Math_marks": 35,
+      "other_marks": [
+        35,
+        50,
+        50
+      ]
+    },
+    "Names": [
+      "Mitalee",
+      "Ruby"
+    ]
+  },
+  {
+    "city": "Apt. 410",
+    "name": "Kelly Simonis",
+    "id": 414,
+    "age": 30,
+    "email": "marcelo.schuster@hotmail.com"
+  },
+  {
+    "Names": [
+      "Florean Fortescue",
+      "Ginny Weasley"
+    ],
+    "subject_marks": {
+      "Total_marks": 72,
+      "other_marks": [
+        94,
+        81
+      ]
+    },
+    "city": "Apt. 059",
+    "phone": 6892953085,
+    "name": "Gilberto Torp",
+    "id": 474,
+    "age": 902,
+    "email": "raymundo.baumbach@hotmail.com",
+    "subjectID": 237
+  },
+  {
+    "id": 794,
+    "name": "Mr. Melvin Abshire",
+    "age": 16,
+    "city": "North Marielaborough",
+    "email": "jay.harris@hotmail.com",
+    "phone": 10381845,
+    "subjectID": 64,
+    "subject_marks": {
+      "Total_marks": 329,
+      "hindi_marks": 85,
+      "Science_marks": 75,
+      "Math_marks": 35,
+      "other_marks": [
+        35,
+        50,
+        50
+      ]
+    },
+    "Names": [
+      "Mitalee",
+      "Ruby"
+    ]
+  },
+  {
+    "city": "Suite 325",
+    "name": "Alden Runolfsdottir",
+    "id": 960,
+    "age": 764,
+    "email": "magen.hills@yahoo.com"
+  },
+  {
+    "id": 130,
+    "name": "Clement Sawayn",
+    "age": 476,
+    "city": "Suite 244",
+    "email": "jerry.okon@yahoo.com",
+    "phone": 7225439313,
+    "subjectID": 138,
+    "subject_marks": {
+      "Total_marks": 78,
+      "other_marks": [
+        79,
+        93
+      ]
+    },
+    "Names": [
+      "Ernie Macmillan",
+      "Harry Potter"
+    ]
+  },
+  {
+    "id": 221,
+    "name": "Mr. Melvin Abshire",
+    "age": 16,
+    "city": "North Marielaborough",
+    "email": "jay.harris@hotmail.com",
+    "phone": 10381845,
+    "subjectID": 64,
+    "subject_marks": {
+      "Total_marks": 329,
+      "hindi_marks": 85,
+      "Science_marks": 75,
+      "Math_marks": 35,
+      "other_marks": [
+        35,
+        50,
+        50
+      ]
+    },
+    "Names": [
+      "Mitalee",
+      "Ruby"
+    ]
+  },
+  {
+    "city": "Apt. 782",
+    "name": "Jude Cummings",
+    "id": 242,
+    "age": 720,
+    "email": "yahaira.bergstrom@yahoo.com"
+  },
+  {
+    "id": 342,
+    "name": "Anibal Sipes",
+    "age": 466,
+    "city": "Suite 956",
+    "email": "jodee.leuschke@yahoo.com",
+    "phone": 1642929592,
+    "subjectID": 252,
+    "subject_marks": {
+      "Total_marks": 95,
+      "other_marks": [
+        81,
+        65
+      ]
+    },
+    "Names": [
+      "Rowena Ravenclaw",
+      "Blaise Zabini"
+    ]
+  },
+  {
+    "empty": false,
+    "mapType": "java.util.HashMap",
+    "id": 1112
+  },
+  {
+    "id": 590,
+    "name": "Mr. Melvin Abshire",
+    "age": 16,
+    "city": "North Marielaborough",
+    "email": "jay.harris@hotmail.com",
+    "phone": 10381845,
+    "subjectID": 64,
+    "subject_marks": {
+      "Total_marks": 329,
+      "hindi_marks": 85,
+      "Science_marks": 75,
+      "Math_marks": 35,
+      "other_marks": [
+        35,
+        50,
+        50
+      ]
+    },
+    "Names": [
+      "Mitalee",
+      "Ruby"
+    ]
+  },
+  {
+    "city": "Apt. 173",
+    "name": "Edison Roob",
+    "id": 202,
+    "age": 874,
+    "email": "antoine.powlowski@hotmail.com"
+  },
+  {
+    "id": 480,
+    "name": "Rashad Wisoky II",
+    "age": 692,
+    "city": "Apt. 627",
+    "email": "ronny.cruickshank@hotmail.com",
+    "phone": 6517632034,
+    "subjectID": 941,
+    "subject_marks": {
+      "Total_marks": 75,
+      "other_marks": [
+        86,
+        86
+      ]
+    },
+    "Names": [
+      "Ginny Weasley",
+      "Viktor Krum"
+    ]
+  },
+  {
+    "id": 820,
+    "name": "Mr. Melvin Abshire",
+    "age": 16,
+    "city": "North Marielaborough",
+    "email": "jay.harris@hotmail.com",
+    "phone": 10381845,
+    "subjectID": 64,
+    "subject_marks": {
+      "Total_marks": 329,
+      "hindi_marks": 85,
+      "Science_marks": 75,
+      "Math_marks": 35,
+      "other_marks": [
+        35,
+        50,
+        50
+      ]
+    },
+    "Names": [
+      "Mitalee",
+      "Ruby"
+    ]
+  },
+  {
+    "city": "Suite 636",
+    "name": "Mariann Schinner",
+    "id": 235,
+    "age": 823,
+    "email": "boyd.bednar@hotmail.com"
+  },
+  {
+    "id": 264,
+    "name": "Isiah Zemlak DVM",
+    "age": 276,
+    "city": "Apt. 371",
+    "email": "harrison.ledner@hotmail.com",
+    "phone": 1513834649,
+    "subjectID": 382,
+    "subject_marks": {
+      "Total_marks": 86,
+      "other_marks": [
+        72,
+        76
+      ]
+    },
+    "Names": [
+      "Phineas Nigellus Black",
+      "Barty Crouch, Jr."
+    ]
+  },
+  {
+    "Names": [
+      "Anthony Goldstein",
+      "Madam Malkin"
+    ],
+    "subject_marks": {
+      "other_marks": [
+        90,
+        72
+      ],
+      "Total_marks": 94
+    },
+    "city": "Apt. 748",
+    "phone": 5472358139,
+    "name": "Wilber Zieme I",
+    "id": 113,
+    "age": 877,
+    "email": "raven.corwin@hotmail.com",
+    "subjectID": 196
+  },
+  {
+    "id": 494,
+    "name": "Mr. Melvin Abshire",
+    "age": 16,
+    "city": "North Marielaborough",
+    "email": "jay.harris@hotmail.com",
+    "phone": 10381845,
+    "subjectID": 64,
+    "subject_marks": {
+      "Total_marks": 329,
+      "hindi_marks": 85,
+      "Science_marks": 75,
+      "Math_marks": 35,
+      "other_marks": [
+        35,
+        50,
+        50
+      ]
+    },
+    "Names": [
+      "Mitalee",
+      "Ruby"
+    ]
+  },
+  {
+    "id": 152,
+    "name": "Azzie Stamm MD",
+    "age": 52,
+    "city": "Apt. 719",
+    "email": "gregorio.ernser@gmail.com",
+    "phone": 8345018994,
+    "subjectID": 256,
+    "subject_marks": {
+      "Total_marks": 847,
+      "hindi_marks": 73,
+      "Science_marks": 81,
+      "Math_marks": 92,
+      "other_marks": [
+        66,
+        74
+      ]
+    },
+    "Names": [
+      "Fred Weasley",
+      "Padma Patil"
+    ]
+  },
+  {
+    "Names": [
+      "Horace Slughorn",
+      "Yaxley"
+    ],
+    "subject_marks": {
+      "Math_marks": 68,
+      "other_marks": [
+        87,
+        83
+      ],
+      "hindi_marks": 82,
+      "Total_marks": 889,
+      "Science_marks": [
+        91
+      ]
+    },
+    "city": "Apt. 864",
+    "phone": 1050342281,
+    "name": "Janine Mante",
+    "id": 503,
+    "age": 441,
+    "email": "arnita.jacobs@gmail.com",
+    "subjectID": 126
+  },
+  {
+    "id": 606,
+    "name": "Mr. Melvin Abshire",
+    "age": 16,
+    "city": "North Marielaborough",
+    "email": "jay.harris@hotmail.com",
+    "phone": 10381845,
+    "subjectID": 64,
+    "subject_marks": {
+      "Total_marks": 329,
+      "hindi_marks": 85,
+      "Science_marks": 75,
+      "Math_marks": 35,
+      "other_marks": [
+        35,
+        50,
+        50
+      ]
+    },
+    "Names": [
+      "Mitalee",
+      "Ruby"
+    ]
+  },
+  {
+    "city": "Suite 470",
+    "name": "Ms. Sigrid Kirlin",
+    "id": 850,
+    "age": 606,
+    "email": "jaquelyn.jast@gmail.com"
+  },
+  {
+    "id": 197,
+    "name": "Darren Runte",
+    "age": 764,
+    "city": "Apt. 498",
+    "email": "ramon.kuphal@hotmail.com",
+    "phone": 1332717369,
+    "subjectID": 501,
+    "subject_marks": {
+      "Total_marks": 733,
+      "hindi_marks": 69,
+      "Science_marks": 81,
+      "Math_marks": 75,
+      "other_marks": [
+        85,
+        65
+      ]
+    },
+    "Names": [
+      "Severus Snape",
+      "Poppy Pomfrey"
+    ]
+  },
+  {
+    "id": 42,
+    "name": "Mr. Melvin Abshire",
+    "age": 16,
+    "city": "North Marielaborough",
+    "email": "jay.harris@hotmail.com",
+    "phone": 10381845,
+    "subjectID": 64,
+    "subject_marks": {
+      "Total_marks": 329,
+      "hindi_marks": 85,
+      "Science_marks": 75,
+      "Math_marks": 35,
+      "other_marks": [
+        35,
+        50,
+        50
+      ]
+    },
+    "Names": [
+      "Mitalee",
+      "Ruby"
+    ]
+  },
+  {
+    "city": "Apt. 295",
+    "name": "Mrs. Chastity Dicki",
+    "id": 123,
+    "age": 573,
+    "email": "shanon.marvin@yahoo.com"
+  },
+  {
+    "id": 122,
+    "name": "Mrs. Bo Nolan",
+    "age": 213,
+    "city": "Apt. 243",
+    "email": "rasheeda.reynolds@gmail.com",
+    "phone": 1318219843,
+    "subjectID": 939,
+    "subject_marks": {
+      "Total_marks": 843,
+      "hindi_marks": 77,
+      "Science_marks": 96,
+      "Math_marks": 61,
+      "other_marks": [
+        75,
+        89
+      ]
+    },
+    "Names": [
+      "Yaxley",
+      "Florean Fortescue"
+    ]
+  },
+  {
+    "Names": [
+      "Rufus Scrimgeour",
+      "Pomona Sprout"
+    ],
+    "subject_marks": {
+      "Math_marks": 62,
+      "other_marks": [
+        64,
+        82
+      ],
+      "hindi_marks": [
+        63,
+        92
+      ],
+      "Total_marks": 554,
+      "Science_marks": 76
+    },
+    "city": "Apt. 773",
+    "phone": 3621420605,
+    "name": "Elena Graham",
+    "id": 100,
+    "age": 231,
+    "email": "dorthy.thiel@gmail.com",
+    "subjectID": 850
+  },
+  {
+    "id": 121,
+    "name": "Anam Kumar",
+    "age": 23,
+    "city": "Begusarai",
+    "email": "anam.kumar@gmail.com",
+    "phone": 121212122,
+    "subjectID": 67,
+    "subject_marks": {
+      "hindi_marksprivate": 100,
+      "other_marks": [
+        100,
+        100
+      ],
+      "math_marks": 100,
+      "science_marks": 100,
+      "total_marks": 500
+    },
+    "names": [
+      "abcdefg",
+      "fghijk"
+    ]
+  },
+  {
+    "id": 1212,
+    "name": "Anam Kumar",
+    "age": 23,
+    "city": "Begusarai",
+    "email": "anam.kumar@gmail.com",
+    "phone": 121212122,
+    "subjectID": 67,
+    "subject_marks": {
+      "hindi_marksprivate": 100,
+      "other_marks": [
+        100,
+        100
+      ],
+      "total_marks": 500,
+      "science_marks": 100,
+      "math_marks": 100
+    },
+    "names": [
+      "abcdefg",
+      "fghijk"
+    ]
+  },
+  {
+    "id": 2222,
+    "name": "privateMr. Melvin Abshire",
+    "age": 16,
+    "city": "North Marielaboroughp",
+    "email": "jay.harris @hotmail.comp",
+    "phone": 10381845,
+    "subjectID": 64,
+    "subject_marks": {
+      "hindi_marksprivate": 100,
+      "other_marks": [
+        200,
+        200
+      ],
+      "total_marks": 500,
+      "science_marks": 100,
+      "math_marks": 100
+    },
+    "names": [
+      "only name required",
+      "only name required"
+    ]
+  },
+  {
+    "id": 5675,
+    "name": "f tyyd trd",
+    "age": 789,
+    "city": "kjgtrxezcez",
+    "email": "xbcttcn",
+    "phone": 7687,
+    "subjectID": 6675,
+    "subject_marks": {
+      "hindi_marksprivate": 100,
+      "other_marks": [
+        100,
+        100
+      ],
+      "total_marks": 500,
+      "science_marks": 100,
+      "math_marks": 100
+    },
+    "names": [
+      "abcdefg",
+      "fghijk"
+    ]
+  },
+  {
+    "id": 567523,
+    "name": "f tyyd trd",
+    "age": 789,
+    "city": "kjgtrxezcez",
+    "email": "xbcttcn",
+    "phone": 7687,
+    "subjectID": 6675,
+    "subject_marks": {
+      "hindi_marksprivate": 100,
+      "other_marks": [
+        100,
+        100
+      ],
+      "math_marks": 100,
+      "science_marks": 100,
+      "total_marks": 500
+    },
+    "names": [
+      "abcdefg",
+      "fghijk"
+    ]
+  },
+  {
+    "id": 567235,
+    "name": "f tyyd trd",
+    "age": 789,
+    "city": "kjgtrxezcez",
+    "email": "xbcttcn",
+    "phone": 7687
+  },
+  {
+    "id": 5672335,
+    "name": "f tyyd trd",
+    "age": 789,
+    "city": null,
+    "email": "xbcttcn",
+    "phone": 7687
+  },
+  {
+    "id": 57523,
+    "name": "f tyyd trd",
+    "age": 789,
+    "city": "kjgtrxezcez",
+    "email": "xbcttcn",
+    "phone": 7687,
+    "subjectID": 6675,
+    "subject_marks": {
+      "hindi_marksprivate": 100,
+      "other_marks": [
+        100,
+        100
+      ],
+      "science_marks": 100,
+      "math_marks": 100,
+      "total_marks": 500
+    },
+    "names": [
+      "abcdefg",
+      "fghijk"
+    ]
+  },
+  {
+    "id": 535,
+    "name": "f tyyd trd",
+    "age": 789,
+    "city": "kjgtrxezcez",
+    "email": "xbcttcn",
+    "phone": 7687
+  },
+  {
+    "id": 5335,
+    "name": "f tyyd trd",
+    "age": 789,
+    "email": "xbcttcn",
+    "phone": 7687
+  },
+  {
+    "id": 576523,
+    "name": "f tyyd trd",
+    "age": 789,
+    "city": "kjgtrxezcez",
+    "email": "xbcttcn",
+    "phone": 7687,
+    "subjectID": 6675,
+    "subject_marks": {
+      "hindi_marksprivate": 100,
+      "other_marks": [
+        100,
+        100
+      ],
+      "science_marks": 100,
+      "math_marks": 100,
+      "total_marks": 500
+    },
+    "names": [
+      "abcdefg",
+      "fghijk"
+    ]
+  }
+]

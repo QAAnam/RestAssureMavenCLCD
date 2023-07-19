@@ -6,7 +6,7 @@ import org.testng.annotations.Test;
 
 import com.github.javafaker.Faker;
 
-import baseLibrary.Utility;
+import baseLibrary.UtilityClassbase;
 import io.restassured.http.Header;
 import io.restassured.http.Headers;
 import io.restassured.response.Response;
@@ -39,7 +39,7 @@ public class Practice
 	@Test
 	public void getHeaders()
 	{
-		Utility.PrintText("getHeaders");
+		UtilityClassbase.PrintText("getHeaders");
 		Response response = given().get("http://localhost:3000/users");
 		Headers headers = response.getHeaders();
 		
@@ -51,7 +51,7 @@ public class Practice
 	@Test
 	public void postBodyAsString()
 	{
-		Utility.PrintText("postBodyAsString");
+		UtilityClassbase.PrintText("postBodyAsString");
 		String requestbody="{\"id\":1000,\"name\":\"Mr. Melvin Abshire\",\"age\":16,\"city\":\"North Marielaborough\","
 				+ "\"email\":\"jay.harris@hotmail.com\",\"phone\":10381845,\"subjectID\":64,\"subject_marks\":{\"Total_marks\":329,"
 				+ "\"hindi_marks\":85,\"Science_marks\":75,\"Math_marks\":35,\"other_marks\":[35,50,50]},\"Names\":[\"Mitalee\",\"Ruby\"]}";
@@ -61,7 +61,7 @@ public class Practice
 	@Test
 	public void postBodyAsJsonFile() // not able to loag reqbody as it is a file
 	{
-		Utility.PrintText("postBodyAsJsonFile");
+		UtilityClassbase.PrintText("postBodyAsJsonFile");
 		File file = new File(System.getProperty("user.dir")+"/reqbody.json");
 		Response reponse = given().body(file).header("Content-Type", "application/json; charset=utf-8").log().all().post("http://localhost:3000/users");
 		reponse.prettyPrint();
@@ -69,7 +69,7 @@ public class Practice
 	@Test
 	public void postAsFileAndAlsoRead() throws IOException
 	{
-		Utility.PrintText("postAsFileAndAlsoRead");
+		UtilityClassbase.PrintText("postAsFileAndAlsoRead");
 		byte[] bytes = Files.readAllBytes(Paths.get(System.getProperty("user.dir")+"/reqbody.json"));
 		String file = new String(bytes);
 		Response reponse = given().body(file).header("Content-Type", "application/json; charset=utf-8").log().all().post("http://localhost:3000/users");
@@ -78,7 +78,7 @@ public class Practice
 	@Test
 	public void postAsFileAndAlsoReadAndReplace() throws IOException
 	{
-		Utility.PrintText("postAsFileAndAlsoReadAndReplace");
+		UtilityClassbase.PrintText("postAsFileAndAlsoReadAndReplace");
 		byte[] bytes = Files.readAllBytes(Paths.get(System.getProperty("user.dir")+"/reqbody.json"));
 		String file = new String(bytes);
 		String file1= file.replace("1111", String.valueOf(new Faker().number().numberBetween(10, 1000)));
@@ -102,7 +102,7 @@ public class Practice
 		body.put("city", new Faker().address().secondaryAddress());
 		body.put("email", new Faker().internet().emailAddress());
 		
-		Utility.PrintText("postBodyAsMapHashMap");
+		UtilityClassbase.PrintText("postBodyAsMapHashMap");
 		Response reponse = given().body(body).header("Content-Type", "application/json; charset=utf-8").log().all().post("http://localhost:3000/users");
 		reponse.prettyPrint();
 	}
@@ -148,7 +148,7 @@ public class Practice
 		Names.add(new Faker().harryPotter().character());
 		Names.add(new Faker().harryPotter().character());
 		body.put("Names", Names);
-		Utility.PrintText("postBodyAsMapHashMapOnLittleMoreComplex");
+		UtilityClassbase.PrintText("postBodyAsMapHashMapOnLittleMoreComplex");
 		Response reponse = given().body(body).header("Content-Type", "application/json; charset=utf-8").log().all().post("http://localhost:3000/users");
 	}
 	@Test
@@ -196,7 +196,7 @@ public class Practice
 	Names.put(new Faker().harryPotter().character());
 	body.put("Names", Names);
 	String body1 = body.toString();
-	Utility.PrintText("postBodyAsMapHashMapOnLittleMoreComplexUsingJsonLibrarayFromOrgdotJson");
+	UtilityClassbase.PrintText("postBodyAsMapHashMapOnLittleMoreComplexUsingJsonLibrarayFromOrgdotJson");
 	Response reponse = given().body(body1).header("Content-Type", "application/json; charset=utf-8").log().all().post("http://localhost:3000/users");
 	reponse.prettyPrint();
 }

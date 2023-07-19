@@ -7,7 +7,7 @@ import java.util.List;
 
 import org.testng.annotations.Test;
 
-import baseLibrary.Utility;
+import baseLibrary.UtilityClassbase;
 import io.restassured.response.Response;
 import pojo.ReqBody;
 import pojo.subject_marks;
@@ -25,7 +25,7 @@ public class PostUsingPojoASReqBody
 		name.add("abcdefg");
 		name.add("fghijk");
 		ReqBody body1=new ReqBody(1212, "Anam Kumar", 23, "Begusarai", "anam.kumar@gmail.com", 121212122, 67, subjmark, name);
-		Utility.PrintText("postUsingPojoAsBody");
+		UtilityClassbase.PrintText("postUsingPojoAsBody");
 		Response reponse = given().body(body1).header("Content-Type", "application/json; charset=utf-8").log().all().post("http://localhost:3000/users");
 		reponse.prettyPrint();
 	}
@@ -40,7 +40,7 @@ public class PostUsingPojoASReqBody
 		name.add("only name required");
 		name.add("only name required");
 		ReqBody body1=new ReqBody(subjmark, name);
-		Utility.PrintText("postUsingPojoAsBodyUsingDefaultPojoValues");
+		UtilityClassbase.PrintText("postUsingPojoAsBodyUsingDefaultPojoValues");
 		Response reponse = given().body(body1).header("Content-Type", "application/json; charset=utf-8").log().all().post("http://localhost:3000/users");
 		reponse.prettyPrint();
 		

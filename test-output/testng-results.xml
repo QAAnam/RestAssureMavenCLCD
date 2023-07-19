@@ -1,89 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-07-19T03:22:52 IST" name="Default suite" finished-at="2023-07-19T03:22:55 IST" duration-ms="2615">
+  <suite started-at="2023-07-19T16:12:54 IST" name="Default suite" finished-at="2023-07-19T16:12:58 IST" duration-ms="4078">
     <groups>
     </groups>
-    <test started-at="2023-07-19T03:22:52 IST" name="Default test" finished-at="2023-07-19T03:22:55 IST" duration-ms="2615">
-      <class name="testRest.PostUsingLomBok">
-        <test-method signature="postUsingLombokAsBodyUsingPojo()[pri:0, instance:testRest.PostUsingLomBok@34b7ac2f]" started-at="2023-07-19T03:22:52 IST" name="postUsingLombokAsBodyUsingPojo" finished-at="2023-07-19T03:22:55 IST" duration-ms="2536" status="FAIL">
-          <exception class="com.fasterxml.jackson.databind.exc.InvalidDefinitionException">
-            <message>
-              <![CDATA[No serializer found for class pojo.ReqBodyUsingLombok and no properties discovered to create BeanSerializer (to avoid exception, disable SerializationFeature.FAIL_ON_EMPTY_BEANS)]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[com.fasterxml.jackson.databind.exc.InvalidDefinitionException: No serializer found for class pojo.ReqBodyUsingLombok and no properties discovered to create BeanSerializer (to avoid exception, disable SerializationFeature.FAIL_ON_EMPTY_BEANS)
-at com.fasterxml.jackson.databind.exc.InvalidDefinitionException.from(InvalidDefinitionException.java:77)
-at com.fasterxml.jackson.databind.SerializerProvider.reportBadDefinition(SerializerProvider.java:1300)
-at com.fasterxml.jackson.databind.DatabindContext.reportBadDefinition(DatabindContext.java:400)
-at com.fasterxml.jackson.databind.ser.impl.UnknownSerializer.failForEmpty(UnknownSerializer.java:46)
-at com.fasterxml.jackson.databind.ser.impl.UnknownSerializer.serialize(UnknownSerializer.java:29)
-at com.fasterxml.jackson.databind.ser.DefaultSerializerProvider._serialize(DefaultSerializerProvider.java:480)
-at com.fasterxml.jackson.databind.ser.DefaultSerializerProvider.serializeValue(DefaultSerializerProvider.java:319)
-at com.fasterxml.jackson.databind.ObjectMapper.writeValue(ObjectMapper.java:3160)
-at com.fasterxml.jackson.databind.ObjectMapper$writeValue.call(Unknown Source)
-at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:47)
-at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
-at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:148)
-at io.restassured.internal.mapping.Jackson2Mapper.serialize(Jackson2Mapper.groovy:53)
-at io.restassured.internal.mapping.Jackson2Mapper.serialize(Jackson2Mapper.groovy)
-at io.restassured.mapper.ObjectMapper$serialize.call(Unknown Source)
-at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:47)
-at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
-at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:139)
-at io.restassured.internal.mapping.ObjectMapping.serializeWithJackson2(ObjectMapping.groovy:209)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:107)
-at org.codehaus.groovy.runtime.callsite.StaticMetaMethodSite$StaticMetaMethodSiteNoUnwrapNoCoerce.invoke(StaticMetaMethodSite.java:149)
-at org.codehaus.groovy.runtime.callsite.StaticMetaMethodSite.callStatic(StaticMetaMethodSite.java:100)
-at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallStatic(CallSiteArray.java:55)
-at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callStatic(AbstractCallSite.java:217)
-at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callStatic(AbstractCallSite.java:240)
-at io.restassured.internal.mapping.ObjectMapping.serialize(ObjectMapping.groovy:133)
-at io.restassured.internal.mapping.ObjectMapping$serialize.call(Unknown Source)
-at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:47)
-at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
-at io.restassured.internal.RequestSpecificationImpl.body(RequestSpecificationImpl.groovy:753)
-at testRest.PostUsingLomBok.postUsingLombokAsBodyUsingPojo(PostUsingLomBok.java:30)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:794)
-at org.testng.TestRunner.run(TestRunner.java:596)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-at org.testng.TestNG.runSuites(TestNG.java:1063)
-at org.testng.TestNG.run(TestNG.java:1031)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- com.fasterxml.jackson.databind.exc.InvalidDefinitionException -->
+    <test started-at="2023-07-19T16:12:54 IST" name="Default test" finished-at="2023-07-19T16:12:58 IST" duration-ms="4078">
+      <class name="testRest.ValidationOverJson">
+        <test-method signature="prnitPaths()[pri:0, instance:testRest.ValidationOverJson@72f926e6]" started-at="2023-07-19T16:12:54 IST" name="prnitPaths" finished-at="2023-07-19T16:12:56 IST" duration-ms="2778" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- postUsingLombokAsBodyUsingPojo -->
-      </class> <!-- testRest.PostUsingLomBok -->
+        </test-method> <!-- prnitPaths -->
+        <test-method signature="prnitPaths1()[pri:0, instance:testRest.ValidationOverJson@72f926e6]" started-at="2023-07-19T16:12:56 IST" name="prnitPaths1" finished-at="2023-07-19T16:12:57 IST" duration-ms="159" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- prnitPaths1 -->
+        <test-method signature="prnitPathsDeserialized()[pri:0, instance:testRest.ValidationOverJson@72f926e6]" started-at="2023-07-19T16:12:57 IST" name="prnitPathsDeserialized" finished-at="2023-07-19T16:12:57 IST" duration-ms="517" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- prnitPathsDeserialized -->
+        <test-method signature="storeResponse()[pri:0, instance:testRest.ValidationOverJson@72f926e6]" started-at="2023-07-19T16:12:57 IST" name="storeResponse" finished-at="2023-07-19T16:12:57 IST" duration-ms="82" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- storeResponse -->
+        <test-method signature="validateJsonSchema()[pri:0, instance:testRest.ValidationOverJson@72f926e6]" started-at="2023-07-19T16:12:57 IST" name="validateJsonSchema" finished-at="2023-07-19T16:12:58 IST" duration-ms="476" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateJsonSchema -->
+      </class> <!-- testRest.ValidationOverJson -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

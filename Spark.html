@@ -35,7 +35,7 @@
 <a href="#"><span class="badge badge-primary"></span></a>
 </li>
 <li class="m-r-10">
-<a href="#"><span class="badge badge-primary">Jul 21, 2023 02:01:59 am</span></a>
+<a href="#"><span class="badge badge-primary">Jul 21, 2023 02:24:58 am</span></a>
 </li>
 </ul>
 </div>
@@ -67,6 +67,7 @@
 <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-exclamation-circle"></i></a>
 <ul id="status-toggle" class="dropdown-menu dropdown-md p-v-0">
 <a class="dropdown-item" status="pass" href="#"><span>Pass</span><span class="status success"></span></a>
+<a class="dropdown-item" status="fail" href="#"><span>Fail</span><span class="status danger"></span></a>
 <div class="dropdown-divider"></div>
 <a status="clear" class="dropdown-item" href="#"><span>Clear</span><span class="pull-right"><i class="fa fa-close"></i></span></a>
 </ul>
@@ -74,62 +75,73 @@
 </ul>
 </div>    <div class="test-list-wrapper scrollable">
       <ul class="test-list-item">
-        <li class="test-item"  status="pass" test-id="1"
+        <li class="test-item"  status="fail" test-id="1"
           author=""
           tag=""
           device="">
           <div class="test-detail">
             <p class="name">getSimple</p>
             <p class="text-sm">
-              <span>02:01:59 am</span> / <span>00:00:00:000</span>
-              <span class="badge pass-bg log float-right">Pass</span>
+              <span>02:24:59 am</span> / <span>00:00:02:992</span>
+              <span class="badge fail-bg log float-right">Fail</span>
             </p>
           </div>
           <div class="test-contents d-none">
 <div class="detail-head">
 <div class="p-v-10">
 <div class="info">
-<h5 class="test-status text-pass">getSimple</h5>
-<span class='badge badge-success'>07.21.2023 02:01:59</span>
-<span class='badge badge-danger'>07.21.2023 02:01:59</span>
-<span class='badge badge-default'>00:00:00:000</span>
+<h5 class="test-status text-fail">getSimple</h5>
+<span class='badge badge-success'>07.21.2023 02:24:59</span>
+<span class='badge badge-danger'>07.21.2023 02:25:02</span>
+<span class='badge badge-default'>00:00:02:992</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
 </div>
 </div>
-</div>          </div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>2:25:01 am</td>
+        <td>
+           <div class='json-tree' id='code-block-json-0'></div>
+ <script>
+  function jsonTreeCreate0() { 
+   document.getElementById('code-block-json-0').innerHTML = JSONTree.create({
+    
+}); 
+  }
+  jsonTreeCreate0();
+ </script>
+
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>2:25:02 am</td>
+        <td>
+          <span class='badge white-text red'>java.lang.AssertionError: [ager verification] 
+Expecting actual:
+  16
+to be between:
+  [18, 60]
+</span>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
         </li>
         <li class="test-item"  status="pass" test-id="2"
           author=""
           tag=""
           device="">
           <div class="test-detail">
-            <p class="name">getSimple</p>
-            <p class="text-sm">
-              <span>02:02:02 am</span> / <span>00:00:00:000</span>
-              <span class="badge pass-bg log float-right">Pass</span>
-            </p>
-          </div>
-          <div class="test-contents d-none">
-<div class="detail-head">
-<div class="p-v-10">
-<div class="info">
-<h5 class="test-status text-pass">getSimple</h5>
-<span class='badge badge-success'>07.21.2023 02:02:02</span>
-<span class='badge badge-danger'>07.21.2023 02:02:02</span>
-<span class='badge badge-default'>00:00:00:000</span>
-&middot; <span class='uri-anchor badge badge-default'>#test-id=2</span>
-</div>
-</div>
-</div>          </div>
-        </li>
-        <li class="test-item"  status="pass" test-id="3"
-          author=""
-          tag=""
-          device="">
-          <div class="test-detail">
             <p class="name">getSimplewithPath</p>
             <p class="text-sm">
-              <span>02:02:02 am</span> / <span>00:00:00:356</span>
+              <span>02:25:02 am</span> / <span>00:00:00:043</span>
               <span class="badge pass-bg log float-right">Pass</span>
             </p>
           </div>
@@ -138,9 +150,63 @@
 <div class="p-v-10">
 <div class="info">
 <h5 class="test-status text-pass">getSimplewithPath</h5>
-<span class='badge badge-success'>07.21.2023 02:02:02</span>
-<span class='badge badge-danger'>07.21.2023 02:02:03</span>
-<span class='badge badge-default'>00:00:00:356</span>
+<span class='badge badge-success'>07.21.2023 02:25:02</span>
+<span class='badge badge-danger'>07.21.2023 02:25:02</span>
+<span class='badge badge-default'>00:00:00:043</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=2</span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>2:25:02 am</td>
+        <td>
+           <div class='json-tree' id='code-block-json-1'></div>
+ <script>
+  function jsonTreeCreate1() { 
+   document.getElementById('code-block-json-1').innerHTML = JSONTree.create({
+    
+}); 
+  }
+  jsonTreeCreate1();
+ </script>
+
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>2:25:02 am</td>
+        <td>
+          getSimplewithPath
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="3"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">getSimplewithQuery</p>
+            <p class="text-sm">
+              <span>02:25:02 am</span> / <span>00:00:00:060</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">getSimplewithQuery</h5>
+<span class='badge badge-success'>07.21.2023 02:25:02</span>
+<span class='badge badge-danger'>07.21.2023 02:25:02</span>
+<span class='badge badge-default'>00:00:00:060</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=3</span>
 </div>
 </div>
@@ -150,19 +216,25 @@
   <tbody>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>2:02:03 am</td>
+        <td>2:25:02 am</td>
         <td>
-           <div class='json-tree' id='code-block-json-0'></div>
+           <div class='json-tree' id='code-block-json-2'></div>
  <script>
-  function jsonTreeCreate0() { 
-   document.getElementById('code-block-json-0').innerHTML = JSONTree.create({
-    "id": 2,
-    "name": "Science"
+  function jsonTreeCreate2() { 
+   document.getElementById('code-block-json-2').innerHTML = JSONTree.create({
+    
 }); 
   }
-  jsonTreeCreate0();
+  jsonTreeCreate2();
  </script>
 
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>2:25:02 am</td>
+        <td>
+          getSimplewithQuery
         </td>
       </tr>
   </tbody>
@@ -175,9 +247,9 @@
           tag=""
           device="">
           <div class="test-detail">
-            <p class="name">getSimplewithPath</p>
+            <p class="name">postUsingLombokAsBodyUsingPojo</p>
             <p class="text-sm">
-              <span>02:02:03 am</span> / <span>00:00:00:000</span>
+              <span>02:25:02 am</span> / <span>00:00:00:195</span>
               <span class="badge pass-bg log float-right">Pass</span>
             </p>
           </div>
@@ -185,23 +257,53 @@
 <div class="detail-head">
 <div class="p-v-10">
 <div class="info">
-<h5 class="test-status text-pass">getSimplewithPath</h5>
-<span class='badge badge-success'>07.21.2023 02:02:03</span>
-<span class='badge badge-danger'>07.21.2023 02:02:03</span>
-<span class='badge badge-default'>00:00:00:000</span>
+<h5 class="test-status text-pass">postUsingLombokAsBodyUsingPojo</h5>
+<span class='badge badge-success'>07.21.2023 02:25:02</span>
+<span class='badge badge-danger'>07.21.2023 02:25:02</span>
+<span class='badge badge-default'>00:00:00:195</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=4</span>
 </div>
 </div>
-</div>          </div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>2:25:02 am</td>
+        <td>
+           <div class='json-tree' id='code-block-json-3'></div>
+ <script>
+  function jsonTreeCreate3() { 
+   document.getElementById('code-block-json-3').innerHTML = JSONTree.create({
+    
+}); 
+  }
+  jsonTreeCreate3();
+ </script>
+
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>2:25:02 am</td>
+        <td>
+          postUsingLombokAsBodyUsingPojo
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
         </li>
         <li class="test-item"  status="pass" test-id="5"
           author=""
           tag=""
           device="">
           <div class="test-detail">
-            <p class="name">getSimplewithQuery</p>
+            <p class="name">postUsingLombokAsBodyUsingPojosimple</p>
             <p class="text-sm">
-              <span>02:02:03 am</span> / <span>00:00:00:071</span>
+              <span>02:25:02 am</span> / <span>00:00:00:069</span>
               <span class="badge pass-bg log float-right">Pass</span>
             </p>
           </div>
@@ -209,10 +311,10 @@
 <div class="detail-head">
 <div class="p-v-10">
 <div class="info">
-<h5 class="test-status text-pass">getSimplewithQuery</h5>
-<span class='badge badge-success'>07.21.2023 02:02:03</span>
-<span class='badge badge-danger'>07.21.2023 02:02:03</span>
-<span class='badge badge-default'>00:00:00:071</span>
+<h5 class="test-status text-pass">postUsingLombokAsBodyUsingPojosimple</h5>
+<span class='badge badge-success'>07.21.2023 02:25:02</span>
+<span class='badge badge-danger'>07.21.2023 02:25:02</span>
+<span class='badge badge-default'>00:00:00:069</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=5</span>
 </div>
 </div>
@@ -222,21 +324,25 @@
   <tbody>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>2:02:03 am</td>
+        <td>2:25:02 am</td>
         <td>
-           <div class='json-tree' id='code-block-json-1'></div>
+           <div class='json-tree' id='code-block-json-4'></div>
  <script>
-  function jsonTreeCreate1() { 
-   document.getElementById('code-block-json-1').innerHTML = JSONTree.create([
-    {
-        "id": 1,
-        "name": "Maths"
-    }
-]); 
+  function jsonTreeCreate4() { 
+   document.getElementById('code-block-json-4').innerHTML = JSONTree.create({
+    
+}); 
   }
-  jsonTreeCreate1();
+  jsonTreeCreate4();
  </script>
 
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>2:25:02 am</td>
+        <td>
+          postUsingLombokAsBodyUsingPojosimple
         </td>
       </tr>
   </tbody>
@@ -249,9 +355,9 @@
           tag=""
           device="">
           <div class="test-detail">
-            <p class="name">getSimplewithQuery</p>
+            <p class="name">postUsingLombokAsBodyUsingPojosimple1</p>
             <p class="text-sm">
-              <span>02:02:03 am</span> / <span>00:00:00:000</span>
+              <span>02:25:02 am</span> / <span>00:00:00:065</span>
               <span class="badge pass-bg log float-right">Pass</span>
             </p>
           </div>
@@ -259,23 +365,53 @@
 <div class="detail-head">
 <div class="p-v-10">
 <div class="info">
-<h5 class="test-status text-pass">getSimplewithQuery</h5>
-<span class='badge badge-success'>07.21.2023 02:02:03</span>
-<span class='badge badge-danger'>07.21.2023 02:02:03</span>
-<span class='badge badge-default'>00:00:00:000</span>
+<h5 class="test-status text-pass">postUsingLombokAsBodyUsingPojosimple1</h5>
+<span class='badge badge-success'>07.21.2023 02:25:02</span>
+<span class='badge badge-danger'>07.21.2023 02:25:02</span>
+<span class='badge badge-default'>00:00:00:065</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=6</span>
 </div>
 </div>
-</div>          </div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>2:25:02 am</td>
+        <td>
+           <div class='json-tree' id='code-block-json-5'></div>
+ <script>
+  function jsonTreeCreate5() { 
+   document.getElementById('code-block-json-5').innerHTML = JSONTree.create({
+    
+}); 
+  }
+  jsonTreeCreate5();
+ </script>
+
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>2:25:02 am</td>
+        <td>
+          postUsingLombokAsBodyUsingPojosimple1
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
         </li>
         <li class="test-item"  status="pass" test-id="7"
           author=""
           tag=""
           device="">
           <div class="test-detail">
-            <p class="name">postUsingLombokAsBodyUsingPojo</p>
+            <p class="name">prnitPaths</p>
             <p class="text-sm">
-              <span>02:02:03 am</span> / <span>00:00:00:373</span>
+              <span>02:25:02 am</span> / <span>00:00:00:683</span>
               <span class="badge pass-bg log float-right">Pass</span>
             </p>
           </div>
@@ -283,10 +419,10 @@
 <div class="detail-head">
 <div class="p-v-10">
 <div class="info">
-<h5 class="test-status text-pass">postUsingLombokAsBodyUsingPojo</h5>
-<span class='badge badge-success'>07.21.2023 02:02:03</span>
-<span class='badge badge-danger'>07.21.2023 02:02:03</span>
-<span class='badge badge-default'>00:00:00:373</span>
+<h5 class="test-status text-pass">prnitPaths</h5>
+<span class='badge badge-success'>07.21.2023 02:25:02</span>
+<span class='badge badge-danger'>07.21.2023 02:25:03</span>
+<span class='badge badge-default'>00:00:00:683</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=7</span>
 </div>
 </div>
@@ -296,28 +432,25 @@
   <tbody>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>2:02:03 am</td>
+        <td>2:25:03 am</td>
         <td>
-           <div class='json-tree' id='code-block-json-2'></div>
+           <div class='json-tree' id='code-block-json-6'></div>
  <script>
-  function jsonTreeCreate2() { 
-   document.getElementById('code-block-json-2').innerHTML = JSONTree.create(<html>
-  <body>Error: Insert failed, duplicate id
-    at Function.insert (C:\Users\anam.kumar\AppData\Roaming\npm\node_modules\json-server\node_modules\lodash-id\src\index.js:49:18)
-    at C:\Users\anam.kumar\AppData\Roaming\npm\node_modules\json-server\node_modules\lodash\lodash.js:4430:28
-    at arrayReduce (C:\Users\anam.kumar\AppData\Roaming\npm\node_modules\json-server\node_modules\lodash\lodash.js:697:21)
-    at baseWrapperValue (C:\Users\anam.kumar\AppData\Roaming\npm\node_modules\json-server\node_modules\lodash\lodash.js:4429:14)
-    at LodashWrapper.wrapperValue (C:\Users\anam.kumar\AppData\Roaming\npm\node_modules\json-server\node_modules\lodash\lodash.js:9114:14)
-    at create (C:\Users\anam.kumar\AppData\Roaming\npm\node_modules\json-server\lib\server\router\plural.js:239:48)
-    at Layer.handle [as handle_request] (C:\Users\anam.kumar\AppData\Roaming\npm\node_modules\json-server\node_modules\express\lib\router\layer.js:95:5)
-    at next (C:\Users\anam.kumar\AppData\Roaming\npm\node_modules\json-server\node_modules\express\lib\router\route.js:144:13)
-    at next (C:\Users\anam.kumar\AppData\Roaming\npm\node_modules\json-server\node_modules\express\lib\router\route.js:140:7)
-    at Route.dispatch (C:\Users\anam.kumar\AppData\Roaming\npm\node_modules\json-server\node_modules\express\lib\router\route.js:114:3)</body>
-</html>); 
+  function jsonTreeCreate6() { 
+   document.getElementById('code-block-json-6').innerHTML = JSONTree.create({
+    
+}); 
   }
-  jsonTreeCreate2();
+  jsonTreeCreate6();
  </script>
 
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>2:25:03 am</td>
+        <td>
+          prnitPaths
         </td>
       </tr>
   </tbody>
@@ -330,9 +463,9 @@
           tag=""
           device="">
           <div class="test-detail">
-            <p class="name">postUsingLombokAsBodyUsingPojo</p>
+            <p class="name">prnitPaths1</p>
             <p class="text-sm">
-              <span>02:02:03 am</span> / <span>00:00:00:000</span>
+              <span>02:25:03 am</span> / <span>00:00:00:125</span>
               <span class="badge pass-bg log float-right">Pass</span>
             </p>
           </div>
@@ -340,23 +473,53 @@
 <div class="detail-head">
 <div class="p-v-10">
 <div class="info">
-<h5 class="test-status text-pass">postUsingLombokAsBodyUsingPojo</h5>
-<span class='badge badge-success'>07.21.2023 02:02:03</span>
-<span class='badge badge-danger'>07.21.2023 02:02:03</span>
-<span class='badge badge-default'>00:00:00:000</span>
+<h5 class="test-status text-pass">prnitPaths1</h5>
+<span class='badge badge-success'>07.21.2023 02:25:03</span>
+<span class='badge badge-danger'>07.21.2023 02:25:03</span>
+<span class='badge badge-default'>00:00:00:125</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=8</span>
 </div>
 </div>
-</div>          </div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>2:25:03 am</td>
+        <td>
+           <div class='json-tree' id='code-block-json-7'></div>
+ <script>
+  function jsonTreeCreate7() { 
+   document.getElementById('code-block-json-7').innerHTML = JSONTree.create({
+    
+}); 
+  }
+  jsonTreeCreate7();
+ </script>
+
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>2:25:03 am</td>
+        <td>
+          prnitPaths1
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
         </li>
         <li class="test-item"  status="pass" test-id="9"
           author=""
           tag=""
           device="">
           <div class="test-detail">
-            <p class="name">postUsingLombokAsBodyUsingPojosimple</p>
+            <p class="name">prnitPathsDeserialized</p>
             <p class="text-sm">
-              <span>02:02:03 am</span> / <span>00:00:00:101</span>
+              <span>02:25:03 am</span> / <span>00:00:00:044</span>
               <span class="badge pass-bg log float-right">Pass</span>
             </p>
           </div>
@@ -364,10 +527,10 @@
 <div class="detail-head">
 <div class="p-v-10">
 <div class="info">
-<h5 class="test-status text-pass">postUsingLombokAsBodyUsingPojosimple</h5>
-<span class='badge badge-success'>07.21.2023 02:02:03</span>
-<span class='badge badge-danger'>07.21.2023 02:02:03</span>
-<span class='badge badge-default'>00:00:00:101</span>
+<h5 class="test-status text-pass">prnitPathsDeserialized</h5>
+<span class='badge badge-success'>07.21.2023 02:25:03</span>
+<span class='badge badge-danger'>07.21.2023 02:25:03</span>
+<span class='badge badge-default'>00:00:00:044</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=9</span>
 </div>
 </div>
@@ -377,28 +540,25 @@
   <tbody>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>2:02:03 am</td>
+        <td>2:25:03 am</td>
         <td>
-           <div class='json-tree' id='code-block-json-3'></div>
+           <div class='json-tree' id='code-block-json-8'></div>
  <script>
-  function jsonTreeCreate3() { 
-   document.getElementById('code-block-json-3').innerHTML = JSONTree.create(<html>
-  <body>Error: Insert failed, duplicate id
-    at Function.insert (C:\Users\anam.kumar\AppData\Roaming\npm\node_modules\json-server\node_modules\lodash-id\src\index.js:49:18)
-    at C:\Users\anam.kumar\AppData\Roaming\npm\node_modules\json-server\node_modules\lodash\lodash.js:4430:28
-    at arrayReduce (C:\Users\anam.kumar\AppData\Roaming\npm\node_modules\json-server\node_modules\lodash\lodash.js:697:21)
-    at baseWrapperValue (C:\Users\anam.kumar\AppData\Roaming\npm\node_modules\json-server\node_modules\lodash\lodash.js:4429:14)
-    at LodashWrapper.wrapperValue (C:\Users\anam.kumar\AppData\Roaming\npm\node_modules\json-server\node_modules\lodash\lodash.js:9114:14)
-    at create (C:\Users\anam.kumar\AppData\Roaming\npm\node_modules\json-server\lib\server\router\plural.js:239:48)
-    at Layer.handle [as handle_request] (C:\Users\anam.kumar\AppData\Roaming\npm\node_modules\json-server\node_modules\express\lib\router\layer.js:95:5)
-    at next (C:\Users\anam.kumar\AppData\Roaming\npm\node_modules\json-server\node_modules\express\lib\router\route.js:144:13)
-    at next (C:\Users\anam.kumar\AppData\Roaming\npm\node_modules\json-server\node_modules\express\lib\router\route.js:140:7)
-    at Route.dispatch (C:\Users\anam.kumar\AppData\Roaming\npm\node_modules\json-server\node_modules\express\lib\router\route.js:114:3)</body>
-</html>); 
+  function jsonTreeCreate8() { 
+   document.getElementById('code-block-json-8').innerHTML = JSONTree.create({
+    
+}); 
   }
-  jsonTreeCreate3();
+  jsonTreeCreate8();
  </script>
 
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>2:25:03 am</td>
+        <td>
+          prnitPathsDeserialized
         </td>
       </tr>
   </tbody>
@@ -411,9 +571,9 @@
           tag=""
           device="">
           <div class="test-detail">
-            <p class="name">postUsingLombokAsBodyUsingPojosimple</p>
+            <p class="name">storeResponse</p>
             <p class="text-sm">
-              <span>02:02:03 am</span> / <span>00:00:00:000</span>
+              <span>02:25:03 am</span> / <span>00:00:00:043</span>
               <span class="badge pass-bg log float-right">Pass</span>
             </p>
           </div>
@@ -421,35 +581,11 @@
 <div class="detail-head">
 <div class="p-v-10">
 <div class="info">
-<h5 class="test-status text-pass">postUsingLombokAsBodyUsingPojosimple</h5>
-<span class='badge badge-success'>07.21.2023 02:02:03</span>
-<span class='badge badge-danger'>07.21.2023 02:02:03</span>
-<span class='badge badge-default'>00:00:00:000</span>
+<h5 class="test-status text-pass">storeResponse</h5>
+<span class='badge badge-success'>07.21.2023 02:25:03</span>
+<span class='badge badge-danger'>07.21.2023 02:25:03</span>
+<span class='badge badge-default'>00:00:00:043</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=10</span>
-</div>
-</div>
-</div>          </div>
-        </li>
-        <li class="test-item"  status="pass" test-id="11"
-          author=""
-          tag=""
-          device="">
-          <div class="test-detail">
-            <p class="name">postUsingLombokAsBodyUsingPojosimple1</p>
-            <p class="text-sm">
-              <span>02:02:03 am</span> / <span>00:00:00:067</span>
-              <span class="badge pass-bg log float-right">Pass</span>
-            </p>
-          </div>
-          <div class="test-contents d-none">
-<div class="detail-head">
-<div class="p-v-10">
-<div class="info">
-<h5 class="test-status text-pass">postUsingLombokAsBodyUsingPojosimple1</h5>
-<span class='badge badge-success'>07.21.2023 02:02:03</span>
-<span class='badge badge-danger'>07.21.2023 02:02:03</span>
-<span class='badge badge-default'>00:00:00:067</span>
-&middot; <span class='uri-anchor badge badge-default'>#test-id=11</span>
 </div>
 </div>
 </div><div class="detail-body mt-4">
@@ -458,28 +594,76 @@
   <tbody>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>2:02:03 am</td>
+        <td>2:25:03 am</td>
         <td>
-           <div class='json-tree' id='code-block-json-4'></div>
+           <div class='json-tree' id='code-block-json-9'></div>
  <script>
-  function jsonTreeCreate4() { 
-   document.getElementById('code-block-json-4').innerHTML = JSONTree.create(<html>
-  <body>Error: Insert failed, duplicate id
-    at Function.insert (C:\Users\anam.kumar\AppData\Roaming\npm\node_modules\json-server\node_modules\lodash-id\src\index.js:49:18)
-    at C:\Users\anam.kumar\AppData\Roaming\npm\node_modules\json-server\node_modules\lodash\lodash.js:4430:28
-    at arrayReduce (C:\Users\anam.kumar\AppData\Roaming\npm\node_modules\json-server\node_modules\lodash\lodash.js:697:21)
-    at baseWrapperValue (C:\Users\anam.kumar\AppData\Roaming\npm\node_modules\json-server\node_modules\lodash\lodash.js:4429:14)
-    at LodashWrapper.wrapperValue (C:\Users\anam.kumar\AppData\Roaming\npm\node_modules\json-server\node_modules\lodash\lodash.js:9114:14)
-    at create (C:\Users\anam.kumar\AppData\Roaming\npm\node_modules\json-server\lib\server\router\plural.js:239:48)
-    at Layer.handle [as handle_request] (C:\Users\anam.kumar\AppData\Roaming\npm\node_modules\json-server\node_modules\express\lib\router\layer.js:95:5)
-    at next (C:\Users\anam.kumar\AppData\Roaming\npm\node_modules\json-server\node_modules\express\lib\router\route.js:144:13)
-    at next (C:\Users\anam.kumar\AppData\Roaming\npm\node_modules\json-server\node_modules\express\lib\router\route.js:140:7)
-    at Route.dispatch (C:\Users\anam.kumar\AppData\Roaming\npm\node_modules\json-server\node_modules\express\lib\router\route.js:114:3)</body>
-</html>); 
+  function jsonTreeCreate9() { 
+   document.getElementById('code-block-json-9').innerHTML = JSONTree.create({
+    
+}); 
   }
-  jsonTreeCreate4();
+  jsonTreeCreate9();
  </script>
 
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>2:25:03 am</td>
+        <td>
+          storeResponse
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="11"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">validateJsonSchema</p>
+            <p class="text-sm">
+              <span>02:25:03 am</span> / <span>00:00:00:514</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">validateJsonSchema</h5>
+<span class='badge badge-success'>07.21.2023 02:25:03</span>
+<span class='badge badge-danger'>07.21.2023 02:25:03</span>
+<span class='badge badge-default'>00:00:00:514</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=11</span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>2:25:03 am</td>
+        <td>
+          <span class='badge white-text red'>java.lang.AssertionError: 1 expectation failed.
+Response body doesn't match expectation.
+Expected: The content to match the given JSON schema.
+error: object has missing required properties (["id","name"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":""}
+    instance: {"pointer":""}
+    domain: "validation"
+    keyword: "required"
+    required: ["id","name"]
+    missing: ["id","name"]
+
+  Actual: {}
+</span>
         </td>
       </tr>
   </tbody>
@@ -492,9 +676,9 @@
           tag=""
           device="">
           <div class="test-detail">
-            <p class="name">postUsingLombokAsBodyUsingPojosimple1</p>
+            <p class="name">postUsingPojoAsBody</p>
             <p class="text-sm">
-              <span>02:02:03 am</span> / <span>00:00:00:000</span>
+              <span>02:25:03 am</span> / <span>00:00:00:060</span>
               <span class="badge pass-bg log float-right">Pass</span>
             </p>
           </div>
@@ -502,23 +686,53 @@
 <div class="detail-head">
 <div class="p-v-10">
 <div class="info">
-<h5 class="test-status text-pass">postUsingLombokAsBodyUsingPojosimple1</h5>
-<span class='badge badge-success'>07.21.2023 02:02:03</span>
-<span class='badge badge-danger'>07.21.2023 02:02:03</span>
-<span class='badge badge-default'>00:00:00:000</span>
+<h5 class="test-status text-pass">postUsingPojoAsBody</h5>
+<span class='badge badge-success'>07.21.2023 02:25:03</span>
+<span class='badge badge-danger'>07.21.2023 02:25:04</span>
+<span class='badge badge-default'>00:00:00:060</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=12</span>
 </div>
 </div>
-</div>          </div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>2:25:04 am</td>
+        <td>
+           <div class='json-tree' id='code-block-json-10'></div>
+ <script>
+  function jsonTreeCreate10() { 
+   document.getElementById('code-block-json-10').innerHTML = JSONTree.create({
+    
+}); 
+  }
+  jsonTreeCreate10();
+ </script>
+
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>2:25:04 am</td>
+        <td>
+          postUsingPojoAsBody
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
         </li>
         <li class="test-item"  status="pass" test-id="13"
           author=""
           tag=""
           device="">
           <div class="test-detail">
-            <p class="name">prnitPaths</p>
+            <p class="name">postUsingPojoAsBodyUsingDefaultPojoValues</p>
             <p class="text-sm">
-              <span>02:02:03 am</span> / <span>00:00:00:783</span>
+              <span>02:25:04 am</span> / <span>00:00:00:045</span>
               <span class="badge pass-bg log float-right">Pass</span>
             </p>
           </div>
@@ -526,10 +740,10 @@
 <div class="detail-head">
 <div class="p-v-10">
 <div class="info">
-<h5 class="test-status text-pass">prnitPaths</h5>
-<span class='badge badge-success'>07.21.2023 02:02:03</span>
-<span class='badge badge-danger'>07.21.2023 02:02:04</span>
-<span class='badge badge-default'>00:00:00:783</span>
+<h5 class="test-status text-pass">postUsingPojoAsBodyUsingDefaultPojoValues</h5>
+<span class='badge badge-success'>07.21.2023 02:25:04</span>
+<span class='badge badge-danger'>07.21.2023 02:25:04</span>
+<span class='badge badge-default'>00:00:00:045</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=13</span>
 </div>
 </div>
@@ -539,19 +753,25 @@
   <tbody>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>2:02:04 am</td>
+        <td>2:25:04 am</td>
         <td>
-           <div class='json-tree' id='code-block-json-5'></div>
+           <div class='json-tree' id='code-block-json-11'></div>
  <script>
-  function jsonTreeCreate5() { 
-   document.getElementById('code-block-json-5').innerHTML = JSONTree.create({
-    "id": 2,
-    "name": "Science"
+  function jsonTreeCreate11() { 
+   document.getElementById('code-block-json-11').innerHTML = JSONTree.create({
+    
 }); 
   }
-  jsonTreeCreate5();
+  jsonTreeCreate11();
  </script>
 
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>2:25:04 am</td>
+        <td>
+          postUsingPojoAsBodyUsingDefaultPojoValues
         </td>
       </tr>
   </tbody>
@@ -564,9 +784,9 @@
           tag=""
           device="">
           <div class="test-detail">
-            <p class="name">prnitPaths</p>
+            <p class="name">Print_builder</p>
             <p class="text-sm">
-              <span>02:02:04 am</span> / <span>00:00:00:000</span>
+              <span>02:25:04 am</span> / <span>00:00:00:103</span>
               <span class="badge pass-bg log float-right">Pass</span>
             </p>
           </div>
@@ -574,23 +794,53 @@
 <div class="detail-head">
 <div class="p-v-10">
 <div class="info">
-<h5 class="test-status text-pass">prnitPaths</h5>
-<span class='badge badge-success'>07.21.2023 02:02:04</span>
-<span class='badge badge-danger'>07.21.2023 02:02:04</span>
-<span class='badge badge-default'>00:00:00:000</span>
+<h5 class="test-status text-pass">Print_builder</h5>
+<span class='badge badge-success'>07.21.2023 02:25:04</span>
+<span class='badge badge-danger'>07.21.2023 02:25:04</span>
+<span class='badge badge-default'>00:00:00:103</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=14</span>
 </div>
 </div>
-</div>          </div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>2:25:04 am</td>
+        <td>
+           <div class='json-tree' id='code-block-json-12'></div>
+ <script>
+  function jsonTreeCreate12() { 
+   document.getElementById('code-block-json-12').innerHTML = JSONTree.create({
+    
+}); 
+  }
+  jsonTreeCreate12();
+ </script>
+
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>2:25:04 am</td>
+        <td>
+          Print_builder
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
         </li>
         <li class="test-item"  status="pass" test-id="15"
           author=""
           tag=""
           device="">
           <div class="test-detail">
-            <p class="name">prnitPaths1</p>
+            <p class="name">Print_builder1</p>
             <p class="text-sm">
-              <span>02:02:04 am</span> / <span>00:00:00:192</span>
+              <span>02:25:04 am</span> / <span>00:00:00:062</span>
               <span class="badge pass-bg log float-right">Pass</span>
             </p>
           </div>
@@ -598,10 +848,10 @@
 <div class="detail-head">
 <div class="p-v-10">
 <div class="info">
-<h5 class="test-status text-pass">prnitPaths1</h5>
-<span class='badge badge-success'>07.21.2023 02:02:04</span>
-<span class='badge badge-danger'>07.21.2023 02:02:04</span>
-<span class='badge badge-default'>00:00:00:192</span>
+<h5 class="test-status text-pass">Print_builder1</h5>
+<span class='badge badge-success'>07.21.2023 02:25:04</span>
+<span class='badge badge-danger'>07.21.2023 02:25:04</span>
+<span class='badge badge-default'>00:00:00:062</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=15</span>
 </div>
 </div>
@@ -611,765 +861,31 @@
   <tbody>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>2:02:04 am</td>
-        <td>
-           <div class='json-tree' id='code-block-json-6'></div>
- <script>
-  function jsonTreeCreate6() { 
-   document.getElementById('code-block-json-6').innerHTML = JSONTree.create([
-    {
-        "id": 1,
-        "name": "Maths"
-    },
-    {
-        "id": 2,
-        "name": "Science"
-    },
-    {
-        "id": 123,
-        "name": "123",
-        "age": 123,
-        "city": null,
-        "email": null,
-        "phone": 0,
-        "subjectID": 0,
-        "subject_marks": null,
-        "names": null
-    },
-    {
-        "id": 7,
-        "name": "123",
-        "age": 123,
-        "city": null,
-        "email": null,
-        "phone": 0,
-        "subjectID": 0,
-        "subject_marks": null,
-        "names": null
-    },
-    {
-        "id": 8,
-        "name": "123",
-        "age": 123,
-        "city": null,
-        "email": null,
-        "phone": 0,
-        "subjectID": 0,
-        "subject_marks": {
-            "hindi_marks": 123,
-            "other_marks": [
-                123,
-                123
-            ],
-            "science_marks": 123,
-            "total_marks": 123,
-            "math_marks": 123
-        },
-        "names": [
-            "123",
-            "123"
-        ]
-    },
-    {
-        "id": 6,
-        "name": "123",
-        "age": 123,
-        "city": null,
-        "email": null,
-        "phone": 0,
-        "subjectID": 0,
-        "subject_marks": null,
-        "names": null
-    },
-    {
-        "id": 3,
-        "name": "123",
-        "age": 123,
-        "city": null,
-        "email": null,
-        "phone": 0,
-        "subjectID": 0,
-        "subject_marks": null,
-        "names": null
-    },
-    {
-        "id": 124,
-        "name": "123",
-        "age": 123,
-        "city": null,
-        "email": null,
-        "phone": 0,
-        "subjectID": 0,
-        "subject_marks": {
-            "hindi_marks": 123,
-            "other_marks": [
-                123,
-                123
-            ],
-            "math_marks": 123,
-            "total_marks": 123,
-            "science_marks": 123
-        },
-        "names": [
-            "123",
-            "123"
-        ]
-    }
-]); 
-  }
-  jsonTreeCreate6();
- </script>
-
-        </td>
-      </tr>
-  </tbody>
-</table>
-</div>
-          </div>
-        </li>
-        <li class="test-item"  status="pass" test-id="16"
-          author=""
-          tag=""
-          device="">
-          <div class="test-detail">
-            <p class="name">prnitPaths1</p>
-            <p class="text-sm">
-              <span>02:02:04 am</span> / <span>00:00:00:000</span>
-              <span class="badge pass-bg log float-right">Pass</span>
-            </p>
-          </div>
-          <div class="test-contents d-none">
-<div class="detail-head">
-<div class="p-v-10">
-<div class="info">
-<h5 class="test-status text-pass">prnitPaths1</h5>
-<span class='badge badge-success'>07.21.2023 02:02:04</span>
-<span class='badge badge-danger'>07.21.2023 02:02:04</span>
-<span class='badge badge-default'>00:00:00:000</span>
-&middot; <span class='uri-anchor badge badge-default'>#test-id=16</span>
-</div>
-</div>
-</div>          </div>
-        </li>
-        <li class="test-item"  status="pass" test-id="17"
-          author=""
-          tag=""
-          device="">
-          <div class="test-detail">
-            <p class="name">prnitPathsDeserialized</p>
-            <p class="text-sm">
-              <span>02:02:04 am</span> / <span>00:00:00:058</span>
-              <span class="badge pass-bg log float-right">Pass</span>
-            </p>
-          </div>
-          <div class="test-contents d-none">
-<div class="detail-head">
-<div class="p-v-10">
-<div class="info">
-<h5 class="test-status text-pass">prnitPathsDeserialized</h5>
-<span class='badge badge-success'>07.21.2023 02:02:04</span>
-<span class='badge badge-danger'>07.21.2023 02:02:04</span>
-<span class='badge badge-default'>00:00:00:058</span>
-&middot; <span class='uri-anchor badge badge-default'>#test-id=17</span>
-</div>
-</div>
-</div><div class="detail-body mt-4">
-<table class="table table-sm">
-  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
-  <tbody>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>2:02:04 am</td>
-        <td>
-           <div class='json-tree' id='code-block-json-7'></div>
- <script>
-  function jsonTreeCreate7() { 
-   document.getElementById('code-block-json-7').innerHTML = JSONTree.create({
-    "id": 2,
-    "name": "Science"
-}); 
-  }
-  jsonTreeCreate7();
- </script>
-
-        </td>
-      </tr>
-  </tbody>
-</table>
-</div>
-          </div>
-        </li>
-        <li class="test-item"  status="pass" test-id="18"
-          author=""
-          tag=""
-          device="">
-          <div class="test-detail">
-            <p class="name">prnitPathsDeserialized</p>
-            <p class="text-sm">
-              <span>02:02:04 am</span> / <span>00:00:00:000</span>
-              <span class="badge pass-bg log float-right">Pass</span>
-            </p>
-          </div>
-          <div class="test-contents d-none">
-<div class="detail-head">
-<div class="p-v-10">
-<div class="info">
-<h5 class="test-status text-pass">prnitPathsDeserialized</h5>
-<span class='badge badge-success'>07.21.2023 02:02:04</span>
-<span class='badge badge-danger'>07.21.2023 02:02:04</span>
-<span class='badge badge-default'>00:00:00:000</span>
-&middot; <span class='uri-anchor badge badge-default'>#test-id=18</span>
-</div>
-</div>
-</div>          </div>
-        </li>
-        <li class="test-item"  status="pass" test-id="19"
-          author=""
-          tag=""
-          device="">
-          <div class="test-detail">
-            <p class="name">storeResponse</p>
-            <p class="text-sm">
-              <span>02:02:04 am</span> / <span>00:00:00:064</span>
-              <span class="badge pass-bg log float-right">Pass</span>
-            </p>
-          </div>
-          <div class="test-contents d-none">
-<div class="detail-head">
-<div class="p-v-10">
-<div class="info">
-<h5 class="test-status text-pass">storeResponse</h5>
-<span class='badge badge-success'>07.21.2023 02:02:04</span>
-<span class='badge badge-danger'>07.21.2023 02:02:04</span>
-<span class='badge badge-default'>00:00:00:064</span>
-&middot; <span class='uri-anchor badge badge-default'>#test-id=19</span>
-</div>
-</div>
-</div><div class="detail-body mt-4">
-<table class="table table-sm">
-  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
-  <tbody>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>2:02:04 am</td>
-        <td>
-           <div class='json-tree' id='code-block-json-8'></div>
- <script>
-  function jsonTreeCreate8() { 
-   document.getElementById('code-block-json-8').innerHTML = JSONTree.create([
-    {
-        "id": 576523,
-        "name": "f tyyd trd",
-        "age": 789,
-        "city": "kjgtrxezcez",
-        "email": "xbcttcn",
-        "phone": 7687,
-        "subjectID": 6675,
-        "subject_marks": {
-            "hindi_marksprivate": 100,
-            "other_marks": [
-                100,
-                100
-            ],
-            "math_marks": 100,
-            "total_marks": 500,
-            "science_marks": 100
-        },
-        "names": [
-            "abcdefg",
-            "fghijk"
-        ]
-    },
-    {
-        "name": "f tyyd trd",
-        "email": "xbcttcn",
-        "id": 535,
-        "age": 789,
-        "city": "kjgtrxezcez",
-        "phone": 7687
-    },
-    {
-        "name": "f tyyd trd",
-        "email": "xbcttcn",
-        "id": 455,
-        "age": 789,
-        "phone": 7687
-    },
-    {
-        "id": 1212,
-        "name": "Anam Kumar",
-        "age": 23,
-        "city": "Begusarai",
-        "email": "anam.kumar@gmail.com",
-        "phone": 121212122,
-        "subjectID": 67,
-        "subject_marks": {
-            "hindi_marksprivate": 100,
-            "other_marks": [
-                100,
-                100
-            ],
-            "math_marks": 100,
-            "total_marks": 500,
-            "science_marks": 100
-        },
-        "names": [
-            "abcdefg",
-            "fghijk"
-        ]
-    },
-    {
-        "id": 2222,
-        "name": "privateMr. Melvin Abshire",
-        "age": 16,
-        "city": "North Marielaboroughp",
-        "email": "jay.harris @hotmail.comp",
-        "phone": 10381845,
-        "subjectID": 64,
-        "subject_marks": {
-            "hindi_marksprivate": 100,
-            "other_marks": [
-                200,
-                200
-            ],
-            "math_marks": 100,
-            "total_marks": 500,
-            "science_marks": 100
-        },
-        "names": [
-            "only name required",
-            "only name required"
-        ]
-    }
-]); 
-  }
-  jsonTreeCreate8();
- </script>
-
-        </td>
-      </tr>
-  </tbody>
-</table>
-</div>
-          </div>
-        </li>
-        <li class="test-item"  status="pass" test-id="20"
-          author=""
-          tag=""
-          device="">
-          <div class="test-detail">
-            <p class="name">storeResponse</p>
-            <p class="text-sm">
-              <span>02:02:04 am</span> / <span>00:00:00:000</span>
-              <span class="badge pass-bg log float-right">Pass</span>
-            </p>
-          </div>
-          <div class="test-contents d-none">
-<div class="detail-head">
-<div class="p-v-10">
-<div class="info">
-<h5 class="test-status text-pass">storeResponse</h5>
-<span class='badge badge-success'>07.21.2023 02:02:04</span>
-<span class='badge badge-danger'>07.21.2023 02:02:04</span>
-<span class='badge badge-default'>00:00:00:000</span>
-&middot; <span class='uri-anchor badge badge-default'>#test-id=20</span>
-</div>
-</div>
-</div>          </div>
-        </li>
-        <li class="test-item"  status="pass" test-id="21"
-          author=""
-          tag=""
-          device="">
-          <div class="test-detail">
-            <p class="name">validateJsonSchema</p>
-            <p class="text-sm">
-              <span>02:02:04 am</span> / <span>00:00:00:475</span>
-              <span class="badge pass-bg log float-right">Pass</span>
-            </p>
-          </div>
-          <div class="test-contents d-none">
-<div class="detail-head">
-<div class="p-v-10">
-<div class="info">
-<h5 class="test-status text-pass">validateJsonSchema</h5>
-<span class='badge badge-success'>07.21.2023 02:02:04</span>
-<span class='badge badge-danger'>07.21.2023 02:02:05</span>
-<span class='badge badge-default'>00:00:00:475</span>
-&middot; <span class='uri-anchor badge badge-default'>#test-id=21</span>
-</div>
-</div>
-</div><div class="detail-body mt-4">
-<table class="table table-sm">
-  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
-  <tbody>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>2:02:05 am</td>
-        <td>
-           <div class='json-tree' id='code-block-json-9'></div>
- <script>
-  function jsonTreeCreate9() { 
-   document.getElementById('code-block-json-9').innerHTML = JSONTree.create({
-    "id": 2,
-    "name": "Science"
-}); 
-  }
-  jsonTreeCreate9();
- </script>
-
-        </td>
-      </tr>
-  </tbody>
-</table>
-</div>
-          </div>
-        </li>
-        <li class="test-item"  status="pass" test-id="22"
-          author=""
-          tag=""
-          device="">
-          <div class="test-detail">
-            <p class="name">validateJsonSchema</p>
-            <p class="text-sm">
-              <span>02:02:05 am</span> / <span>00:00:00:001</span>
-              <span class="badge pass-bg log float-right">Pass</span>
-            </p>
-          </div>
-          <div class="test-contents d-none">
-<div class="detail-head">
-<div class="p-v-10">
-<div class="info">
-<h5 class="test-status text-pass">validateJsonSchema</h5>
-<span class='badge badge-success'>07.21.2023 02:02:05</span>
-<span class='badge badge-danger'>07.21.2023 02:02:05</span>
-<span class='badge badge-default'>00:00:00:001</span>
-&middot; <span class='uri-anchor badge badge-default'>#test-id=22</span>
-</div>
-</div>
-</div>          </div>
-        </li>
-        <li class="test-item"  status="pass" test-id="23"
-          author=""
-          tag=""
-          device="">
-          <div class="test-detail">
-            <p class="name">postUsingPojoAsBody</p>
-            <p class="text-sm">
-              <span>02:02:05 am</span> / <span>00:00:00:086</span>
-              <span class="badge pass-bg log float-right">Pass</span>
-            </p>
-          </div>
-          <div class="test-contents d-none">
-<div class="detail-head">
-<div class="p-v-10">
-<div class="info">
-<h5 class="test-status text-pass">postUsingPojoAsBody</h5>
-<span class='badge badge-success'>07.21.2023 02:02:05</span>
-<span class='badge badge-danger'>07.21.2023 02:02:05</span>
-<span class='badge badge-default'>00:00:00:086</span>
-&middot; <span class='uri-anchor badge badge-default'>#test-id=23</span>
-</div>
-</div>
-</div><div class="detail-body mt-4">
-<table class="table table-sm">
-  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
-  <tbody>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>2:02:05 am</td>
-        <td>
-           <div class='json-tree' id='code-block-json-10'></div>
- <script>
-  function jsonTreeCreate10() { 
-   document.getElementById('code-block-json-10').innerHTML = JSONTree.create(<html>
-  <body>Error: Insert failed, duplicate id
-    at Function.insert (C:\Users\anam.kumar\AppData\Roaming\npm\node_modules\json-server\node_modules\lodash-id\src\index.js:49:18)
-    at C:\Users\anam.kumar\AppData\Roaming\npm\node_modules\json-server\node_modules\lodash\lodash.js:4430:28
-    at arrayReduce (C:\Users\anam.kumar\AppData\Roaming\npm\node_modules\json-server\node_modules\lodash\lodash.js:697:21)
-    at baseWrapperValue (C:\Users\anam.kumar\AppData\Roaming\npm\node_modules\json-server\node_modules\lodash\lodash.js:4429:14)
-    at LodashWrapper.wrapperValue (C:\Users\anam.kumar\AppData\Roaming\npm\node_modules\json-server\node_modules\lodash\lodash.js:9114:14)
-    at create (C:\Users\anam.kumar\AppData\Roaming\npm\node_modules\json-server\lib\server\router\plural.js:239:48)
-    at Layer.handle [as handle_request] (C:\Users\anam.kumar\AppData\Roaming\npm\node_modules\json-server\node_modules\express\lib\router\layer.js:95:5)
-    at next (C:\Users\anam.kumar\AppData\Roaming\npm\node_modules\json-server\node_modules\express\lib\router\route.js:144:13)
-    at next (C:\Users\anam.kumar\AppData\Roaming\npm\node_modules\json-server\node_modules\express\lib\router\route.js:140:7)
-    at Route.dispatch (C:\Users\anam.kumar\AppData\Roaming\npm\node_modules\json-server\node_modules\express\lib\router\route.js:114:3)</body>
-</html>); 
-  }
-  jsonTreeCreate10();
- </script>
-
-        </td>
-      </tr>
-  </tbody>
-</table>
-</div>
-          </div>
-        </li>
-        <li class="test-item"  status="pass" test-id="24"
-          author=""
-          tag=""
-          device="">
-          <div class="test-detail">
-            <p class="name">postUsingPojoAsBody</p>
-            <p class="text-sm">
-              <span>02:02:05 am</span> / <span>00:00:00:000</span>
-              <span class="badge pass-bg log float-right">Pass</span>
-            </p>
-          </div>
-          <div class="test-contents d-none">
-<div class="detail-head">
-<div class="p-v-10">
-<div class="info">
-<h5 class="test-status text-pass">postUsingPojoAsBody</h5>
-<span class='badge badge-success'>07.21.2023 02:02:05</span>
-<span class='badge badge-danger'>07.21.2023 02:02:05</span>
-<span class='badge badge-default'>00:00:00:000</span>
-&middot; <span class='uri-anchor badge badge-default'>#test-id=24</span>
-</div>
-</div>
-</div>          </div>
-        </li>
-        <li class="test-item"  status="pass" test-id="25"
-          author=""
-          tag=""
-          device="">
-          <div class="test-detail">
-            <p class="name">postUsingPojoAsBodyUsingDefaultPojoValues</p>
-            <p class="text-sm">
-              <span>02:02:05 am</span> / <span>00:00:00:071</span>
-              <span class="badge pass-bg log float-right">Pass</span>
-            </p>
-          </div>
-          <div class="test-contents d-none">
-<div class="detail-head">
-<div class="p-v-10">
-<div class="info">
-<h5 class="test-status text-pass">postUsingPojoAsBodyUsingDefaultPojoValues</h5>
-<span class='badge badge-success'>07.21.2023 02:02:05</span>
-<span class='badge badge-danger'>07.21.2023 02:02:05</span>
-<span class='badge badge-default'>00:00:00:071</span>
-&middot; <span class='uri-anchor badge badge-default'>#test-id=25</span>
-</div>
-</div>
-</div><div class="detail-body mt-4">
-<table class="table table-sm">
-  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
-  <tbody>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>2:02:05 am</td>
-        <td>
-           <div class='json-tree' id='code-block-json-11'></div>
- <script>
-  function jsonTreeCreate11() { 
-   document.getElementById('code-block-json-11').innerHTML = JSONTree.create(<html>
-  <body>Error: Insert failed, duplicate id
-    at Function.insert (C:\Users\anam.kumar\AppData\Roaming\npm\node_modules\json-server\node_modules\lodash-id\src\index.js:49:18)
-    at C:\Users\anam.kumar\AppData\Roaming\npm\node_modules\json-server\node_modules\lodash\lodash.js:4430:28
-    at arrayReduce (C:\Users\anam.kumar\AppData\Roaming\npm\node_modules\json-server\node_modules\lodash\lodash.js:697:21)
-    at baseWrapperValue (C:\Users\anam.kumar\AppData\Roaming\npm\node_modules\json-server\node_modules\lodash\lodash.js:4429:14)
-    at LodashWrapper.wrapperValue (C:\Users\anam.kumar\AppData\Roaming\npm\node_modules\json-server\node_modules\lodash\lodash.js:9114:14)
-    at create (C:\Users\anam.kumar\AppData\Roaming\npm\node_modules\json-server\lib\server\router\plural.js:239:48)
-    at Layer.handle [as handle_request] (C:\Users\anam.kumar\AppData\Roaming\npm\node_modules\json-server\node_modules\express\lib\router\layer.js:95:5)
-    at next (C:\Users\anam.kumar\AppData\Roaming\npm\node_modules\json-server\node_modules\express\lib\router\route.js:144:13)
-    at next (C:\Users\anam.kumar\AppData\Roaming\npm\node_modules\json-server\node_modules\express\lib\router\route.js:140:7)
-    at Route.dispatch (C:\Users\anam.kumar\AppData\Roaming\npm\node_modules\json-server\node_modules\express\lib\router\route.js:114:3)</body>
-</html>); 
-  }
-  jsonTreeCreate11();
- </script>
-
-        </td>
-      </tr>
-  </tbody>
-</table>
-</div>
-          </div>
-        </li>
-        <li class="test-item"  status="pass" test-id="26"
-          author=""
-          tag=""
-          device="">
-          <div class="test-detail">
-            <p class="name">postUsingPojoAsBodyUsingDefaultPojoValues</p>
-            <p class="text-sm">
-              <span>02:02:05 am</span> / <span>00:00:00:000</span>
-              <span class="badge pass-bg log float-right">Pass</span>
-            </p>
-          </div>
-          <div class="test-contents d-none">
-<div class="detail-head">
-<div class="p-v-10">
-<div class="info">
-<h5 class="test-status text-pass">postUsingPojoAsBodyUsingDefaultPojoValues</h5>
-<span class='badge badge-success'>07.21.2023 02:02:05</span>
-<span class='badge badge-danger'>07.21.2023 02:02:05</span>
-<span class='badge badge-default'>00:00:00:000</span>
-&middot; <span class='uri-anchor badge badge-default'>#test-id=26</span>
-</div>
-</div>
-</div>          </div>
-        </li>
-        <li class="test-item"  status="pass" test-id="27"
-          author=""
-          tag=""
-          device="">
-          <div class="test-detail">
-            <p class="name">Print_builder</p>
-            <p class="text-sm">
-              <span>02:02:05 am</span> / <span>00:00:00:118</span>
-              <span class="badge pass-bg log float-right">Pass</span>
-            </p>
-          </div>
-          <div class="test-contents d-none">
-<div class="detail-head">
-<div class="p-v-10">
-<div class="info">
-<h5 class="test-status text-pass">Print_builder</h5>
-<span class='badge badge-success'>07.21.2023 02:02:05</span>
-<span class='badge badge-danger'>07.21.2023 02:02:05</span>
-<span class='badge badge-default'>00:00:00:118</span>
-&middot; <span class='uri-anchor badge badge-default'>#test-id=27</span>
-</div>
-</div>
-</div><div class="detail-body mt-4">
-<table class="table table-sm">
-  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
-  <tbody>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>2:02:05 am</td>
-        <td>
-           <div class='json-tree' id='code-block-json-12'></div>
- <script>
-  function jsonTreeCreate12() { 
-   document.getElementById('code-block-json-12').innerHTML = JSONTree.create({
-    "id": 5,
-    "name": "123",
-    "age": 123,
-    "city": null,
-    "email": null,
-    "phone": 0,
-    "subjectID": 0,
-    "subject_marks": null,
-    "names": null
-}); 
-  }
-  jsonTreeCreate12();
- </script>
-
-        </td>
-      </tr>
-  </tbody>
-</table>
-</div>
-          </div>
-        </li>
-        <li class="test-item"  status="pass" test-id="28"
-          author=""
-          tag=""
-          device="">
-          <div class="test-detail">
-            <p class="name">Print_builder</p>
-            <p class="text-sm">
-              <span>02:02:05 am</span> / <span>00:00:00:000</span>
-              <span class="badge pass-bg log float-right">Pass</span>
-            </p>
-          </div>
-          <div class="test-contents d-none">
-<div class="detail-head">
-<div class="p-v-10">
-<div class="info">
-<h5 class="test-status text-pass">Print_builder</h5>
-<span class='badge badge-success'>07.21.2023 02:02:05</span>
-<span class='badge badge-danger'>07.21.2023 02:02:05</span>
-<span class='badge badge-default'>00:00:00:000</span>
-&middot; <span class='uri-anchor badge badge-default'>#test-id=28</span>
-</div>
-</div>
-</div>          </div>
-        </li>
-        <li class="test-item"  status="pass" test-id="29"
-          author=""
-          tag=""
-          device="">
-          <div class="test-detail">
-            <p class="name">Print_builder1</p>
-            <p class="text-sm">
-              <span>02:02:05 am</span> / <span>00:00:00:061</span>
-              <span class="badge pass-bg log float-right">Pass</span>
-            </p>
-          </div>
-          <div class="test-contents d-none">
-<div class="detail-head">
-<div class="p-v-10">
-<div class="info">
-<h5 class="test-status text-pass">Print_builder1</h5>
-<span class='badge badge-success'>07.21.2023 02:02:05</span>
-<span class='badge badge-danger'>07.21.2023 02:02:05</span>
-<span class='badge badge-default'>00:00:00:061</span>
-&middot; <span class='uri-anchor badge badge-default'>#test-id=29</span>
-</div>
-</div>
-</div><div class="detail-body mt-4">
-<table class="table table-sm">
-  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
-  <tbody>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>2:02:05 am</td>
+        <td>2:25:04 am</td>
         <td>
            <div class='json-tree' id='code-block-json-13'></div>
  <script>
   function jsonTreeCreate13() { 
-   document.getElementById('code-block-json-13').innerHTML = JSONTree.create(<html>
-  <body>Error: Insert failed, duplicate id
-    at Function.insert (C:\Users\anam.kumar\AppData\Roaming\npm\node_modules\json-server\node_modules\lodash-id\src\index.js:49:18)
-    at C:\Users\anam.kumar\AppData\Roaming\npm\node_modules\json-server\node_modules\lodash\lodash.js:4430:28
-    at arrayReduce (C:\Users\anam.kumar\AppData\Roaming\npm\node_modules\json-server\node_modules\lodash\lodash.js:697:21)
-    at baseWrapperValue (C:\Users\anam.kumar\AppData\Roaming\npm\node_modules\json-server\node_modules\lodash\lodash.js:4429:14)
-    at LodashWrapper.wrapperValue (C:\Users\anam.kumar\AppData\Roaming\npm\node_modules\json-server\node_modules\lodash\lodash.js:9114:14)
-    at create (C:\Users\anam.kumar\AppData\Roaming\npm\node_modules\json-server\lib\server\router\plural.js:239:48)
-    at Layer.handle [as handle_request] (C:\Users\anam.kumar\AppData\Roaming\npm\node_modules\json-server\node_modules\express\lib\router\layer.js:95:5)
-    at next (C:\Users\anam.kumar\AppData\Roaming\npm\node_modules\json-server\node_modules\express\lib\router\route.js:144:13)
-    at next (C:\Users\anam.kumar\AppData\Roaming\npm\node_modules\json-server\node_modules\express\lib\router\route.js:140:7)
-    at Route.dispatch (C:\Users\anam.kumar\AppData\Roaming\npm\node_modules\json-server\node_modules\express\lib\router\route.js:114:3)</body>
-</html>); 
+   document.getElementById('code-block-json-13').innerHTML = JSONTree.create({
+    
+}); 
   }
   jsonTreeCreate13();
  </script>
 
         </td>
       </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>2:25:04 am</td>
+        <td>
+          Print_builder1
+        </td>
+      </tr>
   </tbody>
 </table>
 </div>
           </div>
-        </li>
-        <li class="test-item"  status="pass" test-id="30"
-          author=""
-          tag=""
-          device="">
-          <div class="test-detail">
-            <p class="name">Print_builder1</p>
-            <p class="text-sm">
-              <span>02:02:05 am</span> / <span>00:00:00:000</span>
-              <span class="badge pass-bg log float-right">Pass</span>
-            </p>
-          </div>
-          <div class="test-contents d-none">
-<div class="detail-head">
-<div class="p-v-10">
-<div class="info">
-<h5 class="test-status text-pass">Print_builder1</h5>
-<span class='badge badge-success'>07.21.2023 02:02:05</span>
-<span class='badge badge-danger'>07.21.2023 02:02:05</span>
-<span class='badge badge-default'>00:00:00:000</span>
-&middot; <span class='uri-anchor badge badge-default'>#test-id=30</span>
-</div>
-</div>
-</div>          </div>
         </li>
       </ul>
     </div>
@@ -1385,25 +901,25 @@
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0">Started</p>
-<h3>Jul 21, 2023 02:01:59 am</h3>
+<h3>Jul 21, 2023 02:24:58 am</h3>
 </div></div>
 </div>
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0">Ended</p>
-<h3>Jul 21, 2023 02:02:05 am</h3>
+<h3>Jul 21, 2023 02:25:04 am</h3>
 </div></div>
 </div>
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0 text-pass">Tests Passed</p>
-<h3>30</h3>
+<h3>13</h3>
 </div></div>
 </div>
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0 text-fail">Tests Failed</p>
-<h3>0</h3>
+<h3>2</h3>
 </div></div>
 </div>
 </div>
@@ -1419,12 +935,12 @@
 </div>
 </div>
 <div class="card-footer">
-<div><small data-tooltip='100%'>
-<b>30</b> tests passed
+<div><small data-tooltip='86%'>
+<b>13</b> tests passed
 </small>
 </div>
 <div>
-<small data-tooltip='0%'><b>0</b> tests failed,
+<small data-tooltip='13%'><b>2</b> tests failed,
 <b>0</b> skipped, <b data-tooltip='0%'>0</b> others
 </small>
 </div>
@@ -1442,9 +958,9 @@
 </div>
 </div>
 <div class="card-footer">
-<div><small data-tooltip='100%'><b>14</b> events passed</small></div>
+<div><small data-tooltip='93%'><b>27</b> events passed</small></div>
 <div>
-<small data-tooltip='0%'><b>0</b> events failed,
+<small data-tooltip='6%'><b>2</b> events failed,
 <b data-tooltip='%'>0</b> others
 </small>
 </div>
@@ -1461,7 +977,7 @@
 </div></div>
 <script>
 var timeline = {
-"getSimple":0,"getSimple":0,"getSimplewithPath":0.356,"getSimplewithPath":0,"getSimplewithQuery":0.071,"getSimplewithQuery":0,"postUsingLombokAsBodyUsingPojo":0.373,"postUsingLombokAsBodyUsingPojo":0,"postUsingLombokAsBodyUsingPojosimple":0.101,"postUsingLombokAsBodyUsingPojosimple":0,"postUsingLombokAsBodyUsingPojosimple1":0.067,"postUsingLombokAsBodyUsingPojosimple1":0,"prnitPaths":0.783,"prnitPaths":0,"prnitPaths1":0.192,"prnitPaths1":0,"prnitPathsDeserialized":0.058,"prnitPathsDeserialized":0,"storeResponse":0.064,"storeResponse":0,"validateJsonSchema":0.475,"validateJsonSchema":0.001,"postUsingPojoAsBody":0.086,"postUsingPojoAsBody":0,"postUsingPojoAsBodyUsingDefaultPojoValues":0.071,"postUsingPojoAsBodyUsingDefaultPojoValues":0,"Print_builder":0.118,"Print_builder":0,"Print_builder1":0.061,"Print_builder1":0
+"getSimple":2.992,"getSimplewithPath":0.043,"getSimplewithQuery":0.06,"postUsingLombokAsBodyUsingPojo":0.195,"postUsingLombokAsBodyUsingPojosimple":0.069,"postUsingLombokAsBodyUsingPojosimple1":0.065,"prnitPaths":0.683,"prnitPaths1":0.125,"prnitPathsDeserialized":0.044,"storeResponse":0.043,"validateJsonSchema":0.514,"postUsingPojoAsBody":0.06,"postUsingPojoAsBodyUsingDefaultPojoValues":0.045,"Print_builder":0.103,"Print_builder1":0.062
 };
 </script>
 <div class="row">
@@ -1470,8 +986,8 @@ var timeline = {
 <script>
 var statusGroup = {
 parentCount: 5,
-passParent: 30,
-failParent: 0,
+passParent: 13,
+failParent: 2,
 warningParent: 0,
 skipParent: 0,
 childCount: 5,
@@ -1487,8 +1003,8 @@ warningGrandChild: 0,
 skipGrandChild: 0,
 infoGrandChild: 0,
 eventsCount: 5,
-passEvents: 14,
-failEvents: 0,
+passEvents: 27,
+failEvents: 2,
 warningEvents: 0,
 skipEvents: 0,
 infoEvents: 0

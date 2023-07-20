@@ -20,12 +20,13 @@ public class GetRequests
 	{
 		UtilityClassbase.PrintText("getSimple");
 		Response response = ApiUtils.getRequestWithBase().pathParam("users", "users").pathParam("id", 239).get("{users}/{id}");
+		ExtentLogger.logresponse(response.asPrettyString());
 		response.prettyPrint();
 		DesirializedResponse respo = response.as(DesirializedResponse.class);
 		UtilityClassbase.PrintText(respo.getCity());
 		assertThat(respo.getAge())
 		.as("ager verification").isBetween(18, 60);
-		ExtentLogger.logresponse(response.asPrettyString());
+		
 		
 	}
 	@Test

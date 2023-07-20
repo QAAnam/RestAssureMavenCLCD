@@ -11,6 +11,11 @@
           <include name="getSimple"/>
         </methods>
       </class> <!-- testRest.GetRequests -->
+      <class name="testRest.ValidationOverJson">
+        <methods>
+          <include name="validateJsonSchema"/>
+        </methods>
+      </class> <!-- testRest.ValidationOverJson -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

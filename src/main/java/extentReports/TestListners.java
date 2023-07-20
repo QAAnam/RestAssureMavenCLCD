@@ -26,17 +26,18 @@ public class TestListners implements ITestListener, ISuiteListener
 
 	@Override
 	public void onTestSuccess(ITestResult result) {
-		ExtentReportsClass.createTest(result.getMethod().getMethodName());
+		ExtentLogger.pass(result.getName().toString());
 	}
 
 	@Override
 	public void onTestFailure(ITestResult result) {
-		ExtentReportsClass.createTest(result.getMethod().getMethodName());
+		
+		ExtentLogger.fail(result.getThrowable().toString());
 	}
 
 	@Override
 	public void onTestSkipped(ITestResult result) {
-		ExtentReportsClass.createTest(result.getMethod().getMethodName());
+		ExtentLogger.info(result.getName());
 	}
 
 	

@@ -1,33 +1,129 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+<testng-results ignored="0" total="15" passed="14" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-07-19T16:12:54 IST" name="Default suite" finished-at="2023-07-19T16:12:58 IST" duration-ms="4078">
+  <suite started-at="2023-07-21T02:01:59 IST" name="Suite" finished-at="2023-07-21T02:02:05 IST" duration-ms="5813">
     <groups>
     </groups>
-    <test started-at="2023-07-19T16:12:54 IST" name="Default test" finished-at="2023-07-19T16:12:58 IST" duration-ms="4078">
+    <test started-at="2023-07-21T02:01:59 IST" name="Test" finished-at="2023-07-21T02:02:05 IST" duration-ms="5813">
+      <class name="testRest.CreatingBodyUsingExBuilder">
+        <test-method signature="Print_builder()[pri:0, instance:testRest.CreatingBodyUsingExBuilder@f5ac9e4]" started-at="2023-07-21T02:02:05 IST" name="Print_builder" finished-at="2023-07-21T02:02:05 IST" duration-ms="120" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Print_builder -->
+        <test-method signature="Print_builder1()[pri:0, instance:testRest.CreatingBodyUsingExBuilder@f5ac9e4]" started-at="2023-07-21T02:02:05 IST" name="Print_builder1" finished-at="2023-07-21T02:02:05 IST" duration-ms="63" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Print_builder1 -->
+      </class> <!-- testRest.CreatingBodyUsingExBuilder -->
+      <class name="testRest.PostUsingLomBok">
+        <test-method signature="postUsingLombokAsBodyUsingPojo()[pri:0, instance:testRest.PostUsingLomBok@498d318c]" started-at="2023-07-21T02:02:03 IST" name="postUsingLombokAsBodyUsingPojo" finished-at="2023-07-21T02:02:03 IST" duration-ms="375" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postUsingLombokAsBodyUsingPojo -->
+        <test-method signature="postUsingLombokAsBodyUsingPojosimple()[pri:0, instance:testRest.PostUsingLomBok@498d318c]" started-at="2023-07-21T02:02:03 IST" name="postUsingLombokAsBodyUsingPojosimple" finished-at="2023-07-21T02:02:03 IST" duration-ms="103" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postUsingLombokAsBodyUsingPojosimple -->
+        <test-method signature="postUsingLombokAsBodyUsingPojosimple1()[pri:0, instance:testRest.PostUsingLomBok@498d318c]" started-at="2023-07-21T02:02:03 IST" name="postUsingLombokAsBodyUsingPojosimple1" finished-at="2023-07-21T02:02:03 IST" duration-ms="69" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postUsingLombokAsBodyUsingPojosimple1 -->
+      </class> <!-- testRest.PostUsingLomBok -->
+      <class name="testRest.PostUsingPojoASReqBody">
+        <test-method signature="postUsingPojoAsBody()[pri:0, instance:testRest.PostUsingPojoASReqBody@59fd97a8]" started-at="2023-07-21T02:02:05 IST" name="postUsingPojoAsBody" finished-at="2023-07-21T02:02:05 IST" duration-ms="89" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postUsingPojoAsBody -->
+        <test-method signature="postUsingPojoAsBodyUsingDefaultPojoValues()[pri:0, instance:testRest.PostUsingPojoASReqBody@59fd97a8]" started-at="2023-07-21T02:02:05 IST" name="postUsingPojoAsBodyUsingDefaultPojoValues" finished-at="2023-07-21T02:02:05 IST" duration-ms="72" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postUsingPojoAsBodyUsingDefaultPojoValues -->
+      </class> <!-- testRest.PostUsingPojoASReqBody -->
       <class name="testRest.ValidationOverJson">
-        <test-method signature="prnitPaths()[pri:0, instance:testRest.ValidationOverJson@72f926e6]" started-at="2023-07-19T16:12:54 IST" name="prnitPaths" finished-at="2023-07-19T16:12:56 IST" duration-ms="2778" status="PASS">
+        <test-method signature="prnitPaths()[pri:0, instance:testRest.ValidationOverJson@795cd85e]" started-at="2023-07-21T02:02:03 IST" name="prnitPaths" finished-at="2023-07-21T02:02:04 IST" duration-ms="785" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- prnitPaths -->
-        <test-method signature="prnitPaths1()[pri:0, instance:testRest.ValidationOverJson@72f926e6]" started-at="2023-07-19T16:12:56 IST" name="prnitPaths1" finished-at="2023-07-19T16:12:57 IST" duration-ms="159" status="PASS">
+        <test-method signature="prnitPaths1()[pri:0, instance:testRest.ValidationOverJson@795cd85e]" started-at="2023-07-21T02:02:04 IST" name="prnitPaths1" finished-at="2023-07-21T02:02:04 IST" duration-ms="194" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- prnitPaths1 -->
-        <test-method signature="prnitPathsDeserialized()[pri:0, instance:testRest.ValidationOverJson@72f926e6]" started-at="2023-07-19T16:12:57 IST" name="prnitPathsDeserialized" finished-at="2023-07-19T16:12:57 IST" duration-ms="517" status="PASS">
+        <test-method signature="prnitPathsDeserialized()[pri:0, instance:testRest.ValidationOverJson@795cd85e]" started-at="2023-07-21T02:02:04 IST" name="prnitPathsDeserialized" finished-at="2023-07-21T02:02:04 IST" duration-ms="61" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- prnitPathsDeserialized -->
-        <test-method signature="storeResponse()[pri:0, instance:testRest.ValidationOverJson@72f926e6]" started-at="2023-07-19T16:12:57 IST" name="storeResponse" finished-at="2023-07-19T16:12:57 IST" duration-ms="82" status="PASS">
+        <test-method signature="storeResponse()[pri:0, instance:testRest.ValidationOverJson@795cd85e]" started-at="2023-07-21T02:02:04 IST" name="storeResponse" finished-at="2023-07-21T02:02:04 IST" duration-ms="68" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- storeResponse -->
-        <test-method signature="validateJsonSchema()[pri:0, instance:testRest.ValidationOverJson@72f926e6]" started-at="2023-07-19T16:12:57 IST" name="validateJsonSchema" finished-at="2023-07-19T16:12:58 IST" duration-ms="476" status="PASS">
+        <test-method signature="validateJsonSchema()[pri:0, instance:testRest.ValidationOverJson@795cd85e]" started-at="2023-07-21T02:02:04 IST" name="validateJsonSchema" finished-at="2023-07-21T02:02:05 IST" duration-ms="478" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateJsonSchema -->
       </class> <!-- testRest.ValidationOverJson -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      <class name="testRest.GetRequests">
+        <test-method signature="getSimple()[pri:0, instance:testRest.GetRequests@1ea9f6af]" started-at="2023-07-21T02:01:59 IST" name="getSimple" finished-at="2023-07-21T02:02:02 IST" duration-ms="2791" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[[ager verification] 
+Expecting actual:
+  16
+to be between:
+  [18, 60]
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: [ager verification] 
+Expecting actual:
+  16
+to be between:
+  [18, 60]
+
+at testRest.GetRequests.getSimple(GetRequests.java:27)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getSimple -->
+        <test-method signature="getSimplewithPath()[pri:0, instance:testRest.GetRequests@1ea9f6af]" started-at="2023-07-21T02:02:02 IST" name="getSimplewithPath" finished-at="2023-07-21T02:02:03 IST" duration-ms="361" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getSimplewithPath -->
+        <test-method signature="getSimplewithQuery()[pri:0, instance:testRest.GetRequests@1ea9f6af]" started-at="2023-07-21T02:02:03 IST" name="getSimplewithQuery" finished-at="2023-07-21T02:02:03 IST" duration-ms="71" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getSimplewithQuery -->
+      </class> <!-- testRest.GetRequests -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

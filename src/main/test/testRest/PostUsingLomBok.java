@@ -1,5 +1,6 @@
 package testRest;
 
+import org.testng.annotations.Test;
 import static io.restassured.RestAssured.given;
 
 import java.util.ArrayList;
@@ -11,6 +12,7 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.SerializationFeature;
 
 import baseLibrary.UtilityClassbase;
+import extentReports.ExtentLogger;
 import io.restassured.response.Response;
 import pojo.ReqBody;
 import pojo.ReqBodyUsingLombok;
@@ -32,7 +34,7 @@ public class PostUsingLomBok
 		ReqBodyUsingLombok body1=new ReqBodyUsingLombok(576523, "f tyyd trd", 789, "kjgtrxezcez", "xbcttcn", 7687, 6675, subjmark, name);
 		UtilityClassbase.PrintText("postUsingLombokAsBodyUsingPojo");
 		Response reponse = given().body(body1).header("Content-Type", "application/json; charset=utf-8").log().all().post("http://localhost:3000/users");
-		reponse.prettyPrint();
+		reponse.prettyPrint();ExtentLogger.logresponse(reponse.asPrettyString());
 		
 	}
 	@Test
@@ -42,7 +44,7 @@ public class PostUsingLomBok
 		SimpleLambokLoad body1=new SimpleLambokLoad(535, "f tyyd trd", 789, "kjgtrxezcez", "xbcttcn", 7687);
 		UtilityClassbase.PrintText("postUsingLombokAsBodyUsingPojosimple");
 		Response reponse = given().body(body1).header("Content-Type", "application/json; charset=utf-8").log().all().post("http://localhost:3000/users");
-		reponse.prettyPrint();
+		reponse.prettyPrint();ExtentLogger.logresponse(reponse.asPrettyString());
 		
 	}
 	@Test
@@ -52,7 +54,7 @@ public class PostUsingLomBok
 		SimpleLambokLoad body1=new SimpleLambokLoad(455, "f tyyd trd", 789, null, "xbcttcn", 7687);
 		UtilityClassbase.PrintText("postUsingLombokAsBodyUsingPojosimple");
 		Response reponse = given().body(body1).header("Content-Type", "application/json; charset=utf-8").log().all().post("http://localhost:3000/users");
-		reponse.prettyPrint();
+		reponse.prettyPrint();ExtentLogger.logresponse(reponse.asPrettyString());
 		
 	}
 

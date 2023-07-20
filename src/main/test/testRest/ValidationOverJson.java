@@ -1,4 +1,5 @@
 package testRest;
+import org.testng.annotations.Test;
 import static io.restassured.RestAssured.*;
 
 import java.io.File;
@@ -10,6 +11,7 @@ import org.testng.annotations.Test;
 import com.fasterxml.jackson.databind.jsonschema.JsonSchema;
 import com.github.fge.jsonschema.messages.JsonSchemaValidationBundle;
 import baseLibrary.UtilityClassbase;
+import extentReports.ExtentLogger;
 import io.restassured.module.jsv.JsonSchemaValidator;
 import io.restassured.response.Response;
 import lombok.experimental.UtilityClass;
@@ -22,14 +24,14 @@ public class ValidationOverJson
 		Response response = given().baseUri("http://localhost:3000/").pathParam("dict", "subjects").pathParam("id", 2).log().all().get("/{dict}/{id}");
 		UtilityClassbase.PrintText(response.jsonPath().getString("name"));
 		UtilityClassbase.PrintText("prnitPaths");
-		response.prettyPrint();
+		response.prettyPrint();ExtentLogger.logresponse(response.asPrettyString());
 	}
 	@Test
 	public void prnitPaths1()
 	{
 		UtilityClassbase.PrintText("prnitPaths1");
 		Response response = given().baseUri("http://localhost:3000/").pathParam("dict", "subjects").log().all().get("/{dict}");
-		UtilityClassbase.PrintText(response.jsonPath().getString("[1].name"));
+		UtilityClassbase.PrintText(response.jsonPath().getString("[1].name"));ExtentLogger.logresponse(response.asPrettyString());
 	}
 	@Test
 	public void prnitPathsDeserialized()
@@ -37,20 +39,20 @@ public class ValidationOverJson
 		Response response =  given().baseUri("http://localhost:3000/").pathParam("dict", "subjects").pathParam("id", 2).log().all().get("/{dict}/{id}/");
 		SimpleLambokLoad deserialized = response.as(SimpleLambokLoad.class);
 		
-		UtilityClassbase.PrintText(deserialized.getName());
+		UtilityClassbase.PrintText(deserialized.getName());ExtentLogger.logresponse(response.asPrettyString());
 	}
 	@Test
 	public void validateJsonSchema()
 	{
 		UtilityClassbase.PrintText("validateJsonSchema");
 		Response response =  given().baseUri("http://localhost:3000/").pathParam("dict", "subjects").pathParam("id", 2).log().all().get("/{dict}/{id}");
-		response.then().body(JsonSchemaValidator.matchesJsonSchema(new File(System.getProperty("user.dir")+"/Schema.json")));
+		response.then().body(JsonSchemaValidator.matchesJsonSchema(new File(System.getProperty("user.dir")+"/Schema.json")));ExtentLogger.logresponse(response.asPrettyString());
 	}
 	@Test
 	public void storeResponse() throws IOException
 	{
 		Response response = given().log().all().get("http://localhost:3000/users");
-		Files.write(Paths.get(System.getProperty("user.dir")+"/Response.json"), response.asByteArray());
+		Files.write(Paths.get(System.getProperty("user.dir")+"/Response.json"), response.asByteArray());ExtentLogger.logresponse(response.asPrettyString());
 	}
 	
 

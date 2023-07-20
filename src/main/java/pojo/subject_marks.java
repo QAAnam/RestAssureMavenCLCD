@@ -2,11 +2,14 @@ package pojo;
 
 import java.util.List;
 
+import javax.annotation.PropertyKey;
+
 public class subject_marks 
 {
 	private int Total_marks=329;
 	private int hindi_marksprivate= 85;
 	private int Science_marks= 75;
+	
 	private int Math_marks= 35;
 	private List<Integer> other_marks;
 	

@@ -1,5 +1,6 @@
 package testRest;
 
+import org.testng.annotations.Test;
 import static io.restassured.RestAssured.given;
 
 import java.util.ArrayList;
@@ -8,6 +9,7 @@ import java.util.List;
 import org.testng.annotations.Test;
 
 import baseLibrary.UtilityClassbase;
+import extentReports.ExtentLogger;
 import io.restassured.response.Response;
 import pojo.ReqBody;
 import pojo.subject_marks;
@@ -28,6 +30,7 @@ public class PostUsingPojoASReqBody
 		UtilityClassbase.PrintText("postUsingPojoAsBody");
 		Response reponse = given().body(body1).header("Content-Type", "application/json; charset=utf-8").log().all().post("http://localhost:3000/users");
 		reponse.prettyPrint();
+		ExtentLogger.logresponse(reponse.asPrettyString());
 	}
 	@Test
 	public void postUsingPojoAsBodyUsingDefaultPojoValues()
@@ -43,7 +46,7 @@ public class PostUsingPojoASReqBody
 		UtilityClassbase.PrintText("postUsingPojoAsBodyUsingDefaultPojoValues");
 		Response reponse = given().body(body1).header("Content-Type", "application/json; charset=utf-8").log().all().post("http://localhost:3000/users");
 		reponse.prettyPrint();
-		
+		ExtentLogger.logresponse(reponse.asPrettyString());
 	}
 
 }

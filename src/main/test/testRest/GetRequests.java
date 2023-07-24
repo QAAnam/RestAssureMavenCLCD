@@ -1,5 +1,7 @@
 package testRest;
 import org.testng.annotations.Test;
+import org.testng.annotations.Test;
+import org.testng.annotations.Test;
 import static io.restassured.RestAssured.*;
 
 import java.util.Arrays;
@@ -16,10 +18,12 @@ import pojo.DesirializedResponse;
 public class GetRequests
 {
 	@Test
-	public void getSimple()
+	public void getSimple() 
 	{
 		UtilityClassbase.PrintText("getSimple");
-		Response response = ApiUtils.getRequestWithBase().pathParam("users", "users").pathParam("id", 239).get("{users}/{id}");
+		
+		Response response = ApiUtils.getRequestWithBase().pathParam("users", "users").pathParam("id", 576523).get("{users}/{id}");
+		
 		ExtentLogger.logresponse(response.asPrettyString());
 		response.prettyPrint();
 		DesirializedResponse respo = response.as(DesirializedResponse.class);
@@ -30,15 +34,19 @@ public class GetRequests
 		
 	}
 	@Test
-	public void getSimplewithPath()
+	public void getSimplewithPath() 
 	{
+		
 		Response response = given().baseUri("http://localhost:3000/").pathParam("dict", "subjects").pathParam("id", 2).log().all().get("/{dict}/{id}/");
+		
 		response.prettyPrint();ExtentLogger.logresponse(response.asPrettyString());
 	}
 	@Test
 	public void getSimplewithQuery()
 	{
+		
 		Response response = given().baseUri("http://localhost:3000/").pathParam("dict", "subjects").queryParam("name", "Maths").log().all().get("/{dict}");
+		
 		response.prettyPrint();ExtentLogger.logresponse(response.asPrettyString());
 	}
 

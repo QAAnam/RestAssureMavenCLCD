@@ -2,9 +2,11 @@ package pojo;
 
 import java.util.List;
 
+import com.github.javafaker.Faker;
+
 public class ReqBody {
 	
-	private int id=2222;
+	private int id=new Faker().number().numberBetween(1, 11111);
 	private String name="privateMr. Melvin Abshire";
 	private int age= 16;
 	private String city= "North Marielaboroughp";

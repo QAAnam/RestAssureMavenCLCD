@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<listeners>
+		<listener class-name="extentReports.TestListners"></listener>
+	</listeners>
+	<test name="Test">
+		<classes>
+			<class name="testRest.GetRequests">
+				<methods>
+					<include name="getSimple"></include>
+					<include name="getSimplewithPath"></include>
+					<include name="getSimplewithQuery"></include>
+				</methods>
+			</class>
+			<class name="testRest.CreatingBodyUsingExBuilder">
+				<methods>
+					<include name="Print_builder"></include>
+					<include name="Print_builder1"></include>
+				</methods>
+			</class>
+			<class name="testRest.PostUsingLomBok">
+				<methods>
+					<include name="postUsingLombokAsBodyUsingPojo"></include>
+					<include name="postUsingLombokAsBodyUsingPojosimple"></include>
+					<include name="postUsingLombokAsBodyUsingPojosimple1"></include>
+					<exclude name="postUsingLombokAsBodyUsingPojosimple"></exclude>
+				</methods>
+			</class>
+			<class name="testRest.PostUsingPojoASReqBody">
+				<methods>
+					<include name="postUsingPojoAsBody"></include>
+					<include name="postUsingPojoAsBodyUsingDefaultPojoValues"></include>
+				</methods>
+			</class>
+			<class name="testRest.ValidationOverJson">
+				<methods>
+					<include name="prnitPaths"></include>
+					<include name="prnitPaths1"></include>
+					<include name="prnitPathsDeserialized"></include>
+					<include name="validateJsonSchema"></include>
+				</methods>
+			</class>
+			
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

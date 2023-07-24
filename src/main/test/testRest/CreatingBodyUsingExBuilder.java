@@ -22,10 +22,12 @@ public class CreatingBodyUsingExBuilder
 	@Test
 	public void Print_builder()
 	{
-		Student s1 = Student.builder().id(new Faker().number().randomDigit()).age(123).name("123").build();
+		
+		Student s1 = Student.builder().id(new Faker().number().numberBetween(1111, 1111111)).age(123).name("123").build();
 		System.out.println(s1);
 		UtilityClassbase.PrintText("Print_builder");
 		Response reponse = given().body(s1).header("Content-Type", "application/json; charset=utf-8").log().all().post("http://localhost:3000/subjects");
+		
 		reponse.prettyPrint();
 		ExtentLogger.logresponse(reponse.asPrettyString());
 	}
@@ -39,10 +41,12 @@ public class CreatingBodyUsingExBuilder
 		other_marks.add(123);
 		other_marks.add(123);
 		Subject_marks sub = Subject_marks.builder().Total_marks(123).hindi_marks(123).Math_marks(123).Science_marks(123).other_marks(other_marks).build();
-		Student s1 = Student.builder().id(new Faker().number().randomDigit()).age(123).name("123").Names(names).subject_marks(sub).build();
+		Student s1 = Student.builder().id(new Faker().number().numberBetween(1111, 111111111)).age(123).name("123").Names(names).subject_marks(sub).build();
 		System.out.println(s1);
 		UtilityClassbase.PrintText("Print_builder1");
+		
 		Response reponse = given().body(s1).header("Content-Type", "application/json; charset=utf-8").log().all().post("http://localhost:3000/subjects");
+		
 		reponse.prettyPrint();
 		ExtentLogger.logresponse(reponse.asPrettyString());
 	}

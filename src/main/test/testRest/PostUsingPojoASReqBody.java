@@ -1,6 +1,9 @@
 package testRest;
 
 import org.testng.annotations.Test;
+
+import com.github.javafaker.Faker;
+
 import static io.restassured.RestAssured.given;
 
 import java.util.ArrayList;
@@ -26,7 +29,7 @@ public class PostUsingPojoASReqBody
 		List<String> name = new ArrayList<String>();
 		name.add("abcdefg");
 		name.add("fghijk");
-		ReqBody body1=new ReqBody(1212, "Anam Kumar", 23, "Begusarai", "anam.kumar@gmail.com", 121212122, 67, subjmark, name);
+		ReqBody body1=new ReqBody(new Faker().number().numberBetween(1, 11111), "Anam Kumar", 23, "Begusarai", "anam.kumar@gmail.com", 121212122, 67, subjmark, name);
 		UtilityClassbase.PrintText("postUsingPojoAsBody");
 		Response reponse = given().body(body1).header("Content-Type", "application/json; charset=utf-8").log().all().post("http://localhost:3000/users");
 		reponse.prettyPrint();

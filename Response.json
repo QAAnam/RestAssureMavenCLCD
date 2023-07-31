@@ -777,5 +777,1158 @@
     "id": 770,
     "age": 789,
     "phone": 7687
+  },
+  {
+    "id": 3421,
+    "name": "Anam Kumar",
+    "age": 23,
+    "city": "Begusarai",
+    "email": "anam.kumar@gmail.com",
+    "phone": 121212122,
+    "subjectID": 67,
+    "subject_marks": {
+      "hindi_marksprivate": 100,
+      "other_marks": [
+        100,
+        100
+      ],
+      "total_marks": 500,
+      "math_marks": 100,
+      "science_marks": 100
+    },
+    "names": [
+      "abcdefg",
+      "fghijk"
+    ]
+  },
+  {
+    "id": 10063,
+    "name": "privateMr. Melvin Abshire",
+    "age": 16,
+    "city": "North Marielaboroughp",
+    "email": "jay.harris @hotmail.comp",
+    "phone": 10381845,
+    "subjectID": 64,
+    "subject_marks": {
+      "hindi_marksprivate": 100,
+      "other_marks": [
+        200,
+        200
+      ],
+      "total_marks": 500,
+      "math_marks": 100,
+      "science_marks": 100
+    },
+    "names": [
+      "only name required",
+      "only name required"
+    ]
+  },
+  {
+    "id": 10504,
+    "name": "f tyyd trd",
+    "age": 789,
+    "city": "kjgtrxezcez",
+    "email": "xbcttcn",
+    "phone": 7687,
+    "subjectID": 6675,
+    "subject_marks": {
+      "hindi_marksprivate": 100,
+      "other_marks": [
+        100,
+        100
+      ],
+      "science_marks": 100,
+      "math_marks": 100,
+      "total_marks": 500
+    },
+    "names": [
+      "abcdefg",
+      "fghijk"
+    ]
+  },
+  {
+    "name": "f tyyd trd",
+    "email": "xbcttcn",
+    "id": 5715,
+    "age": 789,
+    "city": "kjgtrxezcez",
+    "phone": 7687
+  },
+  {
+    "name": "f tyyd trd",
+    "email": "xbcttcn",
+    "id": 1297,
+    "age": 789,
+    "phone": 7687
+  },
+  {
+    "id": 4689,
+    "name": "Anam Kumar",
+    "age": 23,
+    "city": "Begusarai",
+    "email": "anam.kumar@gmail.com",
+    "phone": 121212122,
+    "subjectID": 67,
+    "subject_marks": {
+      "hindi_marksprivate": 100,
+      "other_marks": [
+        100,
+        100
+      ],
+      "science_marks": 100,
+      "math_marks": 100,
+      "total_marks": 500
+    },
+    "names": [
+      "abcdefg",
+      "fghijk"
+    ]
+  },
+  {
+    "id": 7321,
+    "name": "privateMr. Melvin Abshire",
+    "age": 16,
+    "city": "North Marielaboroughp",
+    "email": "jay.harris @hotmail.comp",
+    "phone": 10381845,
+    "subjectID": 64,
+    "subject_marks": {
+      "hindi_marksprivate": 100,
+      "other_marks": [
+        200,
+        200
+      ],
+      "science_marks": 100,
+      "math_marks": 100,
+      "total_marks": 500
+    },
+    "names": [
+      "only name required",
+      "only name required"
+    ]
+  },
+  {
+    "id": 3976,
+    "name": "f tyyd trd",
+    "age": 789,
+    "city": "kjgtrxezcez",
+    "email": "xbcttcn",
+    "phone": 7687,
+    "subjectID": 6675,
+    "subject_marks": {
+      "hindi_marksprivate": 100,
+      "other_marks": [
+        100,
+        100
+      ],
+      "total_marks": 500,
+      "science_marks": 100,
+      "math_marks": 100
+    },
+    "names": [
+      "abcdefg",
+      "fghijk"
+    ]
+  },
+  {
+    "name": "f tyyd trd",
+    "email": "xbcttcn",
+    "id": 5112,
+    "age": 789,
+    "city": "kjgtrxezcez",
+    "phone": 7687
+  },
+  {
+    "name": "f tyyd trd",
+    "email": "xbcttcn",
+    "id": 8811,
+    "age": 789,
+    "phone": 7687
+  },
+  {
+    "id": 9484,
+    "name": "Anam Kumar",
+    "age": 23,
+    "city": "Begusarai",
+    "email": "anam.kumar@gmail.com",
+    "phone": 121212122,
+    "subjectID": 67,
+    "subject_marks": {
+      "hindi_marksprivate": 100,
+      "other_marks": [
+        100,
+        100
+      ],
+      "total_marks": 500,
+      "science_marks": 100,
+      "math_marks": 100
+    },
+    "names": [
+      "abcdefg",
+      "fghijk"
+    ]
+  },
+  {
+    "id": 8025,
+    "name": "privateMr. Melvin Abshire",
+    "age": 16,
+    "city": "North Marielaboroughp",
+    "email": "jay.harris @hotmail.comp",
+    "phone": 10381845,
+    "subjectID": 64,
+    "subject_marks": {
+      "hindi_marksprivate": 100,
+      "other_marks": [
+        200,
+        200
+      ],
+      "total_marks": 500,
+      "science_marks": 100,
+      "math_marks": 100
+    },
+    "names": [
+      "only name required",
+      "only name required"
+    ]
+  },
+  {
+    "id": 8206,
+    "name": "f tyyd trd",
+    "age": 789,
+    "city": "kjgtrxezcez",
+    "email": "xbcttcn",
+    "phone": 7687,
+    "subjectID": 6675,
+    "subject_marks": {
+      "hindi_marksprivate": 100,
+      "other_marks": [
+        100,
+        100
+      ],
+      "total_marks": 500,
+      "math_marks": 100,
+      "science_marks": 100
+    },
+    "names": [
+      "abcdefg",
+      "fghijk"
+    ]
+  },
+  {
+    "name": "f tyyd trd",
+    "email": "xbcttcn",
+    "id": 6858,
+    "age": 789,
+    "city": "kjgtrxezcez",
+    "phone": 7687
+  },
+  {
+    "name": "f tyyd trd",
+    "email": "xbcttcn",
+    "id": 2621,
+    "age": 789,
+    "phone": 7687
+  },
+  {
+    "id": 7846,
+    "name": "Anam Kumar",
+    "age": 23,
+    "city": "Begusarai",
+    "email": "anam.kumar@gmail.com",
+    "phone": 121212122,
+    "subjectID": 67,
+    "subject_marks": {
+      "hindi_marksprivate": 100,
+      "other_marks": [
+        100,
+        100
+      ],
+      "total_marks": 500,
+      "math_marks": 100,
+      "science_marks": 100
+    },
+    "names": [
+      "abcdefg",
+      "fghijk"
+    ]
+  },
+  {
+    "id": 8828,
+    "name": "privateMr. Melvin Abshire",
+    "age": 16,
+    "city": "North Marielaboroughp",
+    "email": "jay.harris @hotmail.comp",
+    "phone": 10381845,
+    "subjectID": 64,
+    "subject_marks": {
+      "hindi_marksprivate": 100,
+      "other_marks": [
+        200,
+        200
+      ],
+      "total_marks": 500,
+      "math_marks": 100,
+      "science_marks": 100
+    },
+    "names": [
+      "only name required",
+      "only name required"
+    ]
+  },
+  {
+    "id": 1887,
+    "name": "f tyyd trd",
+    "age": 789,
+    "city": "kjgtrxezcez",
+    "email": "xbcttcn",
+    "phone": 7687,
+    "subjectID": 6675,
+    "subject_marks": {
+      "hindi_marksprivate": 100,
+      "other_marks": [
+        100,
+        100
+      ],
+      "total_marks": 500,
+      "math_marks": 100,
+      "science_marks": 100
+    },
+    "names": [
+      "abcdefg",
+      "fghijk"
+    ]
+  },
+  {
+    "name": "f tyyd trd",
+    "email": "xbcttcn",
+    "id": 9622,
+    "age": 789,
+    "city": "kjgtrxezcez",
+    "phone": 7687
+  },
+  {
+    "name": "f tyyd trd",
+    "email": "xbcttcn",
+    "id": 6126,
+    "age": 789,
+    "phone": 7687
+  },
+  {
+    "id": 2086,
+    "name": "Anam Kumar",
+    "age": 23,
+    "city": "Begusarai",
+    "email": "anam.kumar@gmail.com",
+    "phone": 121212122,
+    "subjectID": 67,
+    "subject_marks": {
+      "hindi_marksprivate": 100,
+      "other_marks": [
+        100,
+        100
+      ],
+      "total_marks": 500,
+      "math_marks": 100,
+      "science_marks": 100
+    },
+    "names": [
+      "abcdefg",
+      "fghijk"
+    ]
+  },
+  {
+    "id": 6149,
+    "name": "privateMr. Melvin Abshire",
+    "age": 16,
+    "city": "North Marielaboroughp",
+    "email": "jay.harris @hotmail.comp",
+    "phone": 10381845,
+    "subjectID": 64,
+    "subject_marks": {
+      "hindi_marksprivate": 100,
+      "other_marks": [
+        200,
+        200
+      ],
+      "total_marks": 500,
+      "math_marks": 100,
+      "science_marks": 100
+    },
+    "names": [
+      "only name required",
+      "only name required"
+    ]
+  },
+  {
+    "id": 10809,
+    "name": "f tyyd trd",
+    "age": 789,
+    "city": "kjgtrxezcez",
+    "email": "xbcttcn",
+    "phone": 7687,
+    "subjectID": 6675,
+    "subject_marks": {
+      "hindi_marksprivate": 100,
+      "other_marks": [
+        100,
+        100
+      ],
+      "science_marks": 100,
+      "total_marks": 500,
+      "math_marks": 100
+    },
+    "names": [
+      "abcdefg",
+      "fghijk"
+    ]
+  },
+  {
+    "name": "f tyyd trd",
+    "email": "xbcttcn",
+    "id": 5839,
+    "age": 789,
+    "city": "kjgtrxezcez",
+    "phone": 7687
+  },
+  {
+    "name": "f tyyd trd",
+    "email": "xbcttcn",
+    "id": 626,
+    "age": 789,
+    "phone": 7687
+  },
+  {
+    "id": 331,
+    "name": "Anam Kumar",
+    "age": 23,
+    "city": "Begusarai",
+    "email": "anam.kumar@gmail.com",
+    "phone": 121212122,
+    "subjectID": 67,
+    "subject_marks": {
+      "hindi_marksprivate": 100,
+      "other_marks": [
+        100,
+        100
+      ],
+      "science_marks": 100,
+      "total_marks": 500,
+      "math_marks": 100
+    },
+    "names": [
+      "abcdefg",
+      "fghijk"
+    ]
+  },
+  {
+    "id": 5173,
+    "name": "privateMr. Melvin Abshire",
+    "age": 16,
+    "city": "North Marielaboroughp",
+    "email": "jay.harris @hotmail.comp",
+    "phone": 10381845,
+    "subjectID": 64,
+    "subject_marks": {
+      "hindi_marksprivate": 100,
+      "other_marks": [
+        200,
+        200
+      ],
+      "science_marks": 100,
+      "total_marks": 500,
+      "math_marks": 100
+    },
+    "names": [
+      "only name required",
+      "only name required"
+    ]
+  },
+  {
+    "id": 11033,
+    "name": "f tyyd trd",
+    "age": 789,
+    "city": "kjgtrxezcez",
+    "email": "xbcttcn",
+    "phone": 7687,
+    "subjectID": 6675,
+    "subject_marks": {
+      "hindi_marksprivate": 100,
+      "other_marks": [
+        100,
+        100
+      ],
+      "total_marks": 500,
+      "science_marks": 100,
+      "math_marks": 100
+    },
+    "names": [
+      "abcdefg",
+      "fghijk"
+    ]
+  },
+  {
+    "name": "f tyyd trd",
+    "email": "xbcttcn",
+    "id": 3964,
+    "age": 789,
+    "city": "kjgtrxezcez",
+    "phone": 7687
+  },
+  {
+    "name": "f tyyd trd",
+    "email": "xbcttcn",
+    "id": 5343,
+    "age": 789,
+    "phone": 7687
+  },
+  {
+    "id": 10347,
+    "name": "Anam Kumar",
+    "age": 23,
+    "city": "Begusarai",
+    "email": "anam.kumar@gmail.com",
+    "phone": 121212122,
+    "subjectID": 67,
+    "subject_marks": {
+      "hindi_marksprivate": 100,
+      "other_marks": [
+        100,
+        100
+      ],
+      "total_marks": 500,
+      "science_marks": 100,
+      "math_marks": 100
+    },
+    "names": [
+      "abcdefg",
+      "fghijk"
+    ]
+  },
+  {
+    "id": 6784,
+    "name": "privateMr. Melvin Abshire",
+    "age": 16,
+    "city": "North Marielaboroughp",
+    "email": "jay.harris @hotmail.comp",
+    "phone": 10381845,
+    "subjectID": 64,
+    "subject_marks": {
+      "hindi_marksprivate": 100,
+      "other_marks": [
+        200,
+        200
+      ],
+      "total_marks": 500,
+      "science_marks": 100,
+      "math_marks": 100
+    },
+    "names": [
+      "only name required",
+      "only name required"
+    ]
+  },
+  {
+    "id": 6927,
+    "name": "f tyyd trd",
+    "age": 789,
+    "city": "kjgtrxezcez",
+    "email": "xbcttcn",
+    "phone": 7687,
+    "subjectID": 6675,
+    "subject_marks": {
+      "hindi_marksprivate": 100,
+      "other_marks": [
+        100,
+        100
+      ],
+      "total_marks": 500,
+      "science_marks": 100,
+      "math_marks": 100
+    },
+    "names": [
+      "abcdefg",
+      "fghijk"
+    ]
+  },
+  {
+    "name": "f tyyd trd",
+    "email": "xbcttcn",
+    "id": 6402,
+    "age": 789,
+    "city": "kjgtrxezcez",
+    "phone": 7687
+  },
+  {
+    "name": "f tyyd trd",
+    "email": "xbcttcn",
+    "id": 4991,
+    "age": 789,
+    "phone": 7687
+  },
+  {
+    "id": 2414,
+    "name": "Anam Kumar",
+    "age": 23,
+    "city": "Begusarai",
+    "email": "anam.kumar@gmail.com",
+    "phone": 121212122,
+    "subjectID": 67,
+    "subject_marks": {
+      "hindi_marksprivate": 100,
+      "other_marks": [
+        100,
+        100
+      ],
+      "total_marks": 500,
+      "science_marks": 100,
+      "math_marks": 100
+    },
+    "names": [
+      "abcdefg",
+      "fghijk"
+    ]
+  },
+  {
+    "id": 9020,
+    "name": "privateMr. Melvin Abshire",
+    "age": 16,
+    "city": "North Marielaboroughp",
+    "email": "jay.harris @hotmail.comp",
+    "phone": 10381845,
+    "subjectID": 64,
+    "subject_marks": {
+      "hindi_marksprivate": 100,
+      "other_marks": [
+        200,
+        200
+      ],
+      "total_marks": 500,
+      "science_marks": 100,
+      "math_marks": 100
+    },
+    "names": [
+      "only name required",
+      "only name required"
+    ]
+  },
+  {
+    "id": 3815,
+    "name": "f tyyd trd",
+    "age": 789,
+    "city": "kjgtrxezcez",
+    "email": "xbcttcn",
+    "phone": 7687,
+    "subjectID": 6675,
+    "subject_marks": {
+      "hindi_marksprivate": 100,
+      "other_marks": [
+        100,
+        100
+      ],
+      "math_marks": 100,
+      "science_marks": 100,
+      "total_marks": 500
+    },
+    "names": [
+      "abcdefg",
+      "fghijk"
+    ]
+  },
+  {
+    "name": "f tyyd trd",
+    "email": "xbcttcn",
+    "id": 2159,
+    "age": 789,
+    "city": "kjgtrxezcez",
+    "phone": 7687
+  },
+  {
+    "name": "f tyyd trd",
+    "email": "xbcttcn",
+    "id": 6034,
+    "age": 789,
+    "phone": 7687
+  },
+  {
+    "id": 7701,
+    "name": "Anam Kumar",
+    "age": 23,
+    "city": "Begusarai",
+    "email": "anam.kumar@gmail.com",
+    "phone": 121212122,
+    "subjectID": 67,
+    "subject_marks": {
+      "hindi_marksprivate": 100,
+      "other_marks": [
+        100,
+        100
+      ],
+      "math_marks": 100,
+      "science_marks": 100,
+      "total_marks": 500
+    },
+    "names": [
+      "abcdefg",
+      "fghijk"
+    ]
+  },
+  {
+    "id": 4716,
+    "name": "privateMr. Melvin Abshire",
+    "age": 16,
+    "city": "North Marielaboroughp",
+    "email": "jay.harris @hotmail.comp",
+    "phone": 10381845,
+    "subjectID": 64,
+    "subject_marks": {
+      "hindi_marksprivate": 100,
+      "other_marks": [
+        200,
+        200
+      ],
+      "math_marks": 100,
+      "science_marks": 100,
+      "total_marks": 500
+    },
+    "names": [
+      "only name required",
+      "only name required"
+    ]
+  },
+  {
+    "id": 771,
+    "name": "f tyyd trd",
+    "age": 789,
+    "city": "kjgtrxezcez",
+    "email": "xbcttcn",
+    "phone": 7687,
+    "subjectID": 6675,
+    "subject_marks": {
+      "hindi_marksprivate": 100,
+      "other_marks": [
+        100,
+        100
+      ],
+      "science_marks": 100,
+      "math_marks": 100,
+      "total_marks": 500
+    },
+    "names": [
+      "abcdefg",
+      "fghijk"
+    ]
+  },
+  {
+    "name": "f tyyd trd",
+    "email": "xbcttcn",
+    "id": 5454,
+    "age": 789,
+    "city": "kjgtrxezcez",
+    "phone": 7687
+  },
+  {
+    "name": "f tyyd trd",
+    "email": "xbcttcn",
+    "id": 6176,
+    "age": 789,
+    "phone": 7687
+  },
+  {
+    "id": 10898,
+    "name": "Anam Kumar",
+    "age": 23,
+    "city": "Begusarai",
+    "email": "anam.kumar@gmail.com",
+    "phone": 121212122,
+    "subjectID": 67,
+    "subject_marks": {
+      "hindi_marksprivate": 100,
+      "other_marks": [
+        100,
+        100
+      ],
+      "science_marks": 100,
+      "math_marks": 100,
+      "total_marks": 500
+    },
+    "names": [
+      "abcdefg",
+      "fghijk"
+    ]
+  },
+  {
+    "id": 5448,
+    "name": "privateMr. Melvin Abshire",
+    "age": 16,
+    "city": "North Marielaboroughp",
+    "email": "jay.harris @hotmail.comp",
+    "phone": 10381845,
+    "subjectID": 64,
+    "subject_marks": {
+      "hindi_marksprivate": 100,
+      "other_marks": [
+        200,
+        200
+      ],
+      "science_marks": 100,
+      "math_marks": 100,
+      "total_marks": 500
+    },
+    "names": [
+      "only name required",
+      "only name required"
+    ]
+  },
+  {
+    "id": 3669,
+    "name": "f tyyd trd",
+    "age": 789,
+    "city": "kjgtrxezcez",
+    "email": "xbcttcn",
+    "phone": 7687,
+    "subjectID": 6675,
+    "subject_marks": {
+      "hindi_marksprivate": 100,
+      "other_marks": [
+        100,
+        100
+      ],
+      "total_marks": 500,
+      "math_marks": 100,
+      "science_marks": 100
+    },
+    "names": [
+      "abcdefg",
+      "fghijk"
+    ]
+  },
+  {
+    "name": "f tyyd trd",
+    "email": "xbcttcn",
+    "id": 10791,
+    "age": 789,
+    "city": "kjgtrxezcez",
+    "phone": 7687
+  },
+  {
+    "name": "f tyyd trd",
+    "email": "xbcttcn",
+    "id": 1839,
+    "age": 789,
+    "phone": 7687
+  },
+  {
+    "id": 5892,
+    "name": "Anam Kumar",
+    "age": 23,
+    "city": "Begusarai",
+    "email": "anam.kumar@gmail.com",
+    "phone": 121212122,
+    "subjectID": 67,
+    "subject_marks": {
+      "hindi_marksprivate": 100,
+      "other_marks": [
+        100,
+        100
+      ],
+      "total_marks": 500,
+      "math_marks": 100,
+      "science_marks": 100
+    },
+    "names": [
+      "abcdefg",
+      "fghijk"
+    ]
+  },
+  {
+    "id": 3418,
+    "name": "privateMr. Melvin Abshire",
+    "age": 16,
+    "city": "North Marielaboroughp",
+    "email": "jay.harris @hotmail.comp",
+    "phone": 10381845,
+    "subjectID": 64,
+    "subject_marks": {
+      "hindi_marksprivate": 100,
+      "other_marks": [
+        200,
+        200
+      ],
+      "total_marks": 500,
+      "math_marks": 100,
+      "science_marks": 100
+    },
+    "names": [
+      "only name required",
+      "only name required"
+    ]
+  },
+  {
+    "id": 7301,
+    "name": "f tyyd trd",
+    "age": 789,
+    "city": "kjgtrxezcez",
+    "email": "xbcttcn",
+    "phone": 7687,
+    "subjectID": 6675,
+    "subject_marks": {
+      "hindi_marksprivate": 100,
+      "other_marks": [
+        100,
+        100
+      ],
+      "total_marks": 500,
+      "science_marks": 100,
+      "math_marks": 100
+    },
+    "names": [
+      "abcdefg",
+      "fghijk"
+    ]
+  },
+  {
+    "name": "f tyyd trd",
+    "email": "xbcttcn",
+    "id": 2235,
+    "age": 789,
+    "city": "kjgtrxezcez",
+    "phone": 7687
+  },
+  {
+    "name": "f tyyd trd",
+    "email": "xbcttcn",
+    "id": 5557,
+    "age": 789,
+    "phone": 7687
+  },
+  {
+    "id": 1161,
+    "name": "Anam Kumar",
+    "age": 23,
+    "city": "Begusarai",
+    "email": "anam.kumar@gmail.com",
+    "phone": 121212122,
+    "subjectID": 67,
+    "subject_marks": {
+      "hindi_marksprivate": 100,
+      "other_marks": [
+        100,
+        100
+      ],
+      "total_marks": 500,
+      "science_marks": 100,
+      "math_marks": 100
+    },
+    "names": [
+      "abcdefg",
+      "fghijk"
+    ]
+  },
+  {
+    "id": 3798,
+    "name": "privateMr. Melvin Abshire",
+    "age": 16,
+    "city": "North Marielaboroughp",
+    "email": "jay.harris @hotmail.comp",
+    "phone": 10381845,
+    "subjectID": 64,
+    "subject_marks": {
+      "hindi_marksprivate": 100,
+      "other_marks": [
+        200,
+        200
+      ],
+      "total_marks": 500,
+      "science_marks": 100,
+      "math_marks": 100
+    },
+    "names": [
+      "only name required",
+      "only name required"
+    ]
+  },
+  {
+    "name": "f tyyd trd",
+    "email": "xbcttcn",
+    "id": 2080,
+    "age": 789,
+    "city": "kjgtrxezcez",
+    "phone": 7687
+  },
+  {
+    "name": "f tyyd trd",
+    "email": "xbcttcn",
+    "id": 2225,
+    "age": 789,
+    "phone": 7687
+  },
+  {
+    "id": 3134,
+    "name": "Anam Kumar",
+    "age": 23,
+    "city": "Begusarai",
+    "email": "anam.kumar@gmail.com",
+    "phone": 121212122,
+    "subjectID": 67,
+    "subject_marks": {
+      "hindi_marksprivate": 100,
+      "other_marks": [
+        100,
+        100
+      ],
+      "science_marks": 100,
+      "total_marks": 500,
+      "math_marks": 100
+    },
+    "names": [
+      "abcdefg",
+      "fghijk"
+    ]
+  },
+  {
+    "id": 8531,
+    "name": "privateMr. Melvin Abshire",
+    "age": 16,
+    "city": "North Marielaboroughp",
+    "email": "jay.harris @hotmail.comp",
+    "phone": 10381845,
+    "subjectID": 64,
+    "subject_marks": {
+      "hindi_marksprivate": 100,
+      "other_marks": [
+        200,
+        200
+      ],
+      "science_marks": 100,
+      "total_marks": 500,
+      "math_marks": 100
+    },
+    "names": [
+      "only name required",
+      "only name required"
+    ]
+  },
+  {
+    "id": 7811,
+    "name": "f tyyd trd",
+    "age": 789,
+    "city": "kjgtrxezcez",
+    "email": "xbcttcn",
+    "phone": 7687,
+    "subjectID": 6675,
+    "subject_marks": {
+      "hindi_marksprivate": 100,
+      "other_marks": [
+        100,
+        100
+      ],
+      "math_marks": 100,
+      "science_marks": 100,
+      "total_marks": 500
+    },
+    "names": [
+      "abcdefg",
+      "fghijk"
+    ]
+  },
+  {
+    "name": "f tyyd trd",
+    "email": "xbcttcn",
+    "id": 8570,
+    "age": 789,
+    "city": "kjgtrxezcez",
+    "phone": 7687
+  },
+  {
+    "name": "f tyyd trd",
+    "email": "xbcttcn",
+    "id": 3217,
+    "age": 789,
+    "phone": 7687
+  },
+  {
+    "id": 3129,
+    "name": "Anam Kumar",
+    "age": 23,
+    "city": "Begusarai",
+    "email": "anam.kumar@gmail.com",
+    "phone": 121212122,
+    "subjectID": 67,
+    "subject_marks": {
+      "hindi_marksprivate": 100,
+      "other_marks": [
+        100,
+        100
+      ],
+      "math_marks": 100,
+      "science_marks": 100,
+      "total_marks": 500
+    },
+    "names": [
+      "abcdefg",
+      "fghijk"
+    ]
+  },
+  {
+    "id": 7125,
+    "name": "privateMr. Melvin Abshire",
+    "age": 16,
+    "city": "North Marielaboroughp",
+    "email": "jay.harris @hotmail.comp",
+    "phone": 10381845,
+    "subjectID": 64,
+    "subject_marks": {
+      "hindi_marksprivate": 100,
+      "other_marks": [
+        200,
+        200
+      ],
+      "math_marks": 100,
+      "science_marks": 100,
+      "total_marks": 500
+    },
+    "names": [
+      "only name required",
+      "only name required"
+    ]
+  },
+  {
+    "id": 5954,
+    "name": "f tyyd trd",
+    "age": 789,
+    "city": "kjgtrxezcez",
+    "email": "xbcttcn",
+    "phone": 7687,
+    "subjectID": 6675,
+    "subject_marks": {
+      "hindi_marksprivate": 100,
+      "other_marks": [
+        100,
+        100
+      ],
+      "total_marks": 500,
+      "science_marks": 100,
+      "math_marks": 100
+    },
+    "names": [
+      "abcdefg",
+      "fghijk"
+    ]
+  },
+  {
+    "name": "f tyyd trd",
+    "email": "xbcttcn",
+    "id": 5378,
+    "age": 789,
+    "city": "kjgtrxezcez",
+    "phone": 7687
+  },
+  {
+    "name": "f tyyd trd",
+    "email": "xbcttcn",
+    "id": 648,
+    "age": 789,
+    "phone": 7687
   }
 ]

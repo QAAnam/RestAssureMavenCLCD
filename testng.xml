@@ -1,14 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite parallel="methods" name="Suite">
-<listeners> <listener class-name="extentReports.TestListners"></listener></listeners>
-  <test thread-count="5" parallel="false" name="Test">
-    <classes>
-      <class name="testRest.GetRequests"/>
-      <class name="testRest.PostUsingLomBok"/>
-      <class name="testRest.ValidationOverJson"/>
-      <class name="testRest.PostUsingPojoASReqBody"/>
-      <class name="testRest.CreatingBodyUsingExBuilder"/>
-    </classes>
-  </test> <!-- Test -->
+	<listeners>
+		<listener class-name="extentReports.TestListners"></listener>
+	</listeners>
+	<test thread-count="5" parallel="false" name="Test">
+		<classes>
+			<class name="testRest.GetRequests" />
+			<class name="testRest.PostUsingLomBok" />
+			<class name="testRest.ValidationOverJson" />
+			<class name="testRest.PostUsingPojoASReqBody" />
+			<class name="testRest.CreatingBodyUsingExBuilder" />
+			<class name="testRest.UsersApiChainingCreateTests" />
+			<class name="testRest.UsersApiChainingGetTests" />
+			<class name="testRest.UsersApiChainingUpdateTests" />
+			<class name="testRest.UsersApiChainingDeleteTests" />
+
+		</classes>
+	</test> <!-- Test -->
 </suite> <!-- Suite -->

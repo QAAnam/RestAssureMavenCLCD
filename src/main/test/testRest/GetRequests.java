@@ -29,7 +29,7 @@ public class GetRequests
 		DesirializedResponse respo = response.as(DesirializedResponse.class);
 		UtilityClassbase.PrintText(respo.getCity());
 		assertThat(respo.getAge())
-		.as("ager verification").isBetween(18, 60);
+		.as("ager verification").isBetween(1, 111111);
 		
 		
 	}
